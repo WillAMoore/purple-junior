@@ -50,23 +50,23 @@
 	</div>
 
 	<div class="home-section section-5  col-xs-12">
-		<div class="col-sm-4 col-xs-6 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/cisco-grey.png"></img>
+		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
+			<img src="<?php echo get_template_directory_uri();?>/img/cisco-1.png"></img>
 		</div>
-		<div class="col-sm-4 col-xs-6 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/calix-grey.png"></img>
+		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
+			<img src="<?php echo get_template_directory_uri();?>/img/calix-1.png"></img>
 		</div>
-		<div class="col-sm-4 col-xs-6 text-center">
+		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
 			<img src="<?php echo get_template_directory_uri();?>/img/swarovski.png"></img>
 		</div>
-		<div class="col-sm-4 col-xs-6 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/silkstream-grey.png"></img>
+		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
+			<img src="<?php echo get_template_directory_uri();?>/img/silkstream-1.png"></img>
 		</div>
-		<div class="col-sm-4 col-xs-6 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/theshipleopard-grey.png"></img>
+		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
+			<img src="<?php echo get_template_directory_uri();?>/img/theshipleopard-1.png"></img>
 		</div>
-		<div class="col-sm-4 col-xs-6 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/cadenza-grey.png"></img>
+		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
+			<img src="<?php echo get_template_directory_uri();?>/img/cadenza-1.png"></img>
 		</div>
 	</div>
 

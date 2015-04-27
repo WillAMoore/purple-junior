@@ -11,7 +11,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div class="container">
+<div >
     <nav id="navbar" class="navbar navbar-default">
         <div class="col-xs-6">
             <img src="<?php echo get_template_directory_uri();?>/img/logo-purple-junior.png"></img>
