@@ -19,6 +19,13 @@ p {
 
 }
 
+.section-1 {
+	background-color: #d13d67;
+}
+
+.section-1 p {
+    text-align: center;
+}
 
 /*
     RESPONSIVE MEDIA QUERIES

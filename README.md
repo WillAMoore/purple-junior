@@ -1,6 +1,6 @@
 # purple-junior
 
-Site is all one page
+Multiple pages - only have one at the moment
 
 Digital story, backgrounds, one goal
 
