@@ -19,18 +19,50 @@ p {
 
 }
 
+.footer {
+	background-color: #dadada;
+	height:300px;
+}
+
+/*Home Page Styles*/
+
+.home-section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 .section-1 {
     background-color: #d13d67;
+	height:300px;
 }
 
 .section-1 p {
-    text-align: center;
 	color: #fff;
 }
 
 .section-2 img {
     margin: 0 auto;
+	height:300px;
 }
+
+.section-3 {
+	background-color: #f7e76b;
+	height:300px;
+}
+
+.section-4 {
+	background-color: #5d5d5d;
+}
+
+.section-5 {
+	background-color: #fff;
+}
+
+.section-6 {
+	background-color: #2cacbf;
+}
+
+
 
 /*
     RESPONSIVE MEDIA QUERIES
