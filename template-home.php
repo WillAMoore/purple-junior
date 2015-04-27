@@ -12,17 +12,17 @@
 
 	<div class="home-section section-2  col-xs-12">
 
-		<div class="col-sm-4 col-xs-12 text-center">
+		<div class="col-md-4 col-xs-12 text-center">
 			<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img1.png"></img>
 			<h3>Design</h3>
 			<p>Lorem ipsum dolor sit amet</p>
 		</div>
-		<div class="col-sm-4 col-xs-12 text-center">
+		<div class="col-md-4 col-xs-12 text-center">
 			<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img2.png"></img>
 			<h3>Web Apps</h3>
 			<p>Lorem ipsum dolor sit amet</p>
 		</div>
-		<div class="col-sm-4 col-xs-12 text-center">
+		<div class="col-md-4 col-xs-12 text-center">
 			<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img3.png"></img>
 			<h3>Web Marketing</h3>
 			<p>Lorem ipsum dolor sit amet</p>

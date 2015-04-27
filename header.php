@@ -11,3 +11,17 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div class="container">
+    <nav id="navbar" class="navbar navbar-default">
+        <div class="col-xs-6">
+            <img src="<?php echo get_template_directory_uri();?>/img/logo-purple-junior.png"></img>
+        </div>
+        <div class="col-xs-6">
+            <div class="pull-right">
+                <img src="<?php echo get_template_directory_uri();?>/img/icon-search.png"></img>
+                <input type="text">
+                <img src="<?php echo get_template_directory_uri();?>/img/icon-share.png"></img>
+
+            </div>
+        </div>
+    </nav> <!-- /#navbar -->
