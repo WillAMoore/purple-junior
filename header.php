@@ -13,10 +13,10 @@
 <body <?php body_class(); ?>>
 <div >
     <nav id="navbar" class="navbar navbar-default">
-        <div class="col-xs-6">
+        <div class="col-sm-6 col-xs-12">
             <img src="<?php echo get_template_directory_uri();?>/img/logo-purple-junior.png"></img>
         </div>
-        <div class="col-xs-6">
+        <div class="col-sm-6 hidden-xs">
             <div class="pull-right">
                 <img src="<?php echo get_template_directory_uri();?>/img/icon-search.png"></img>
                 <input type="text">
