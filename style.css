@@ -1,11 +1,11 @@
 /*
-Theme Name: Infinity Weddings
-Theme URI: http://infinityweddings.it
+Theme Name: Purple Junior
+Theme URI: http://purplegroup.com/
 Author: The Purple Group
 Author URI: http://purplegroup.com
-Description: Infinity Weddings
-Version: 4.0
-Text Domain: infinity
+Description: Purple Junior
+Version: 1
+Text Domain: purple
 */
 
 /* Global */
@@ -29,7 +29,7 @@ p {
 
 /* MEDIUM DEVICES (desktops, 992px and up) */
 @media (min-width: 992px) {
- 
+
 
 }
 
@@ -37,6 +37,6 @@ p {
 
 /* LARGE DEVICES (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
- 
+
 
 }
