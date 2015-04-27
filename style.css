@@ -10,6 +10,7 @@ Text Domain: purple
 
 /* Global */
 body {
+	font-size:14px;
 
 }
 h1, h2, h3, h4, h5 {
@@ -19,9 +20,16 @@ p {
 
 }
 
-.footer {
+.footer .col-xs-12{
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background-color: #dadada;
 	height:300px;
+}
+
+.fa-heart {
+	color: #2cacbf;
+	font-size:50px;
 }
 
 /*Home Page Styles*/
@@ -34,24 +42,25 @@ p {
 .section-1 {
     background-color: #d13d67;
 	height:300px;
-}
-
-.section-1 p {
 	color: #fff;
 }
 
-.section-2 img {
-    margin: 0 auto;
-	height:300px;
-}
+
 
 .section-3 {
 	background-color: #f7e76b;
 	height:300px;
+	color: #5d5d5d;
 }
 
 .section-4 {
 	background-color: #5d5d5d;
+	color: #fff;
+}
+
+.section-4 .fa-heart {
+	color: #fc611f;
+	font-size:40px;
 }
 
 .section-5 {
@@ -60,6 +69,7 @@ p {
 
 .section-6 {
 	background-color: #2cacbf;
+	color: #fff;
 }
 
 
