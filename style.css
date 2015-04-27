@@ -1,0 +1,42 @@
+/*
+Theme Name: Infinity Weddings
+Theme URI: http://infinityweddings.it
+Author: The Purple Group
+Author URI: http://purplegroup.com
+Description: Infinity Weddings
+Version: 4.0
+Text Domain: infinity
+*/
+
+/* Global */
+body {
+
+}
+h1, h2, h3, h4, h5 {
+
+}
+p {
+
+}
+
+
+/*
+    RESPONSIVE MEDIA QUERIES
+*/
+@media (min-width: 768px) {
+
+}
+
+/* MEDIUM DEVICES (desktops, 992px and up) */
+@media (min-width: 992px) {
+ 
+
+}
+
+
+
+/* LARGE DEVICES (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ 
+
+}
