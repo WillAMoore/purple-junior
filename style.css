@@ -28,6 +28,10 @@ p {
 	color: #fff;
 }
 
+.section-2 img {
+    margin: 0 auto;
+}
+
 /*
     RESPONSIVE MEDIA QUERIES
 */

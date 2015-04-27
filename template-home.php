@@ -13,13 +13,13 @@
 <div class="section-2 col-xs-12">
 
 	<div class="col-sm-4 col-xs-12">
-
+		<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img1.png"></img>
 	</div>
 	<div class="col-sm-4 col-xs-12">
-
+		<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img2.png"></img>
 	</div>
 	<div class="col-sm-4 col-xs-12">
-
+		<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img3.png"></img>
 	</div>
 
 
