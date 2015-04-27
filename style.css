@@ -10,12 +10,16 @@ Text Domain: purple
 
 /* Global */
 body {
-	font-size:14px;
+	font-size:26px;
 
 }
 h1, h2, h3, h4, h5 {
 
 }
+h1 {
+	font-size:16px;
+}
+
 p {
 
 }
@@ -89,6 +93,10 @@ p {
     RESPONSIVE MEDIA QUERIES
 */
 @media (min-width: 768px) {
+
+	h1 {
+		font-size:36px;
+	}
 
 }
 
