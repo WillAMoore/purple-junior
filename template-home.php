@@ -46,7 +46,6 @@
 			<h2 class="col-xs-6 col-xs-offset-3 text-center">Web Marketing</h2>
 			<i class="fa fa-heart col-xs-6 col-xs-offset-3 text-center"></i>
 			<img class="col-xs-12 col-md-8 col-md-offset-2" src="<?php echo get_template_directory_uri();?>/img/home-sect4-fullgraphic.png"></img>
-
 		</div>
 
 	</div>
