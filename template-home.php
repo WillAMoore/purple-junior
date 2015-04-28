@@ -53,22 +53,22 @@
 
 	<div class="home-section section-5  col-xs-12">
 		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/cisco-1.png"></img>
+			<img src="<?php echo get_template_directory_uri();?>/img/cisco-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/cisco-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/cisco-1.png'"></img>
 		</div>
 		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/calix-1.png"></img>
+			<img src="<?php echo get_template_directory_uri();?>/img/calix-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/calix-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/calix-1.png'"></img>
 		</div>
 		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
 			<img src="<?php echo get_template_directory_uri();?>/img/swarovski.png"></img>
 		</div>
 		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/silkstream-1.png"></img>
+			<img src="<?php echo get_template_directory_uri();?>/img/silkstream-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/silkstream-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/silkstream-1.png'"></img>
 		</div>
 		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/theshipleopard-1.png"></img>
+			<img src="<?php echo get_template_directory_uri();?>/img/theshipleopard-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/theshipleopard-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/theshipleopard-1.png'"></img>
 		</div>
 		<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/cadenza-1.png"></img>
+			<img src="<?php echo get_template_directory_uri();?>/img/cadenza-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/cadenza-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/cadenza-1.png'"></img>
 		</div>
 	</div>
 
