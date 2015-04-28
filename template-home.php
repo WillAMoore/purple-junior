@@ -34,8 +34,9 @@
 	<div class="home-section section-3  col-xs-12">
 		<div class="col-xs-12">
 			<h2 class="col-xs-6 col-xs-offset-3 text-center">Showcase</h2>
-			<p class="col-xs-6 col-xs-offset-3 text-center">  Here will be the grid, made using the essential grid plugin </p>
-			<?php echo do_shortcode('[ess_grid alias="showcase-grid"]'); ?>
+			<div class="col-xs-8 col-xs-offset-2">
+				<?php echo do_shortcode('[ess_grid alias="showcase-grid"]'); ?>
+			</div>
 		</div>
 
 	</div>
