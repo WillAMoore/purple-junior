@@ -10,6 +10,11 @@
 
 <?php wp_footer(); ?>
 </div>
+
+<script>
+var app = angular.module('myApp', [ 'ngMaterial' ]);
+
+</script>
 </body>
 
 </html>
