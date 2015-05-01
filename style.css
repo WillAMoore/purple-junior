@@ -45,6 +45,7 @@ p {
 	border:none;
 	margin-bottom:0;
 	margin-top: 10px;
+	height:64px;
 }
 
 header {
@@ -59,6 +60,20 @@ header {
 
 .logo{
 
+}
+
+
+.logo-sidemenu{
+	display: block;
+	height: 64px;
+	color: #333;
+	padding-left: 1em;
+	line-height: 4.5em;
+	font-weight: 300;
+	background-color: #fed910;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.29);
+	-moz-box-shadow:    1px 1px 1px 0px rgba(50, 50, 50, 0.29);
+	box-shadow:         1px 1px 1px 0px rgba(50, 50, 50, 0.29);
 }
 
 #menuicon {
@@ -94,8 +109,8 @@ header {
 .circle{
 /*	float: right;*/
 /*	margin-right: 26px;*/
-	width:20px;
-	height:20px;
+	width:30px;
+	height:30px;
 	border-radius:25px;
 	font-size:8px;
 	color:#fff;
@@ -200,6 +215,138 @@ input:focus ~ .highlight {
 }
 
 /************* search input done */
+
+
+/**************** css for side menu ************/
+#menu {
+  position: fixed;
+  background-color: #fff;
+  height: 100%;
+  z-index: 10;
+  width: 180px;
+  color: #595959;
+  top: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  opacity: 1;
+  font-family: 'Source Sans Pro', sans-serif;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.29);
+-moz-box-shadow:    2px 2px 2px 0px rgba(50, 50, 50, 0.29);
+box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
+}
+
+#menu ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0
+}
+
+#menu ul li { border-bottom: 1px solid #EAEAEA; }
+
+/* #menu>ul>li>a { border-left: 4px solid #222; } */
+
+#menu ul li a {
+  color: inherit;
+  font-size: 12px;
+  display: block;
+  padding: 8px 0 8px 17px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+#menu ul a i {
+  margin-right: 10px;
+  font-size: 18px;
+  margin-top: 3px;
+  width: 20px;
+}
+.vasso-down{
+ background-image: url(http://purplejunior.dev.purplegroup.com/wp-content/themes/purple-junio/img/icons/down.svg);
+   background-size: 13px  ;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.vasso-left{
+ background-image: url(http://purplejunior.dev.purplegroup.com/wp-content/themes/purple-junio/img/icons/left.svg);
+   background-size: 13px  ;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+#menu ul a i .vasso-down { float: right; }
+
+
+#menu ul a:hover,
+#menu ul a.active {
+  background-color: #EAEAEA;
+  color: #D13D67;
+}
+
+#menu ul a:hover i:first-child { color: #ddd; }
+
+/* Submenu */
+
+#menu ul li a.active+ul { display: block }
+
+#menu ul li ul {
+  margin-top: 0;
+    display: none;
+}
+
+#menu ul li ul li { border-bottom: none; }
+
+#menu ul li ul li a { padding-left: 30px; }
+
+#menu ul li ul li a:hover { background-color: #EAEAEA; }
+
+/* Submenu */
+
+#menu ul li a.active+ul { display: block }
+
+#menu ul li ul {
+  margin-top: 0;
+  display: none;
+}
+
+#menu ul li ul li { border-bottom: none; }
+
+#menu ul li ul li a { padding-left: 30px; }
+
+#menu ul li ul li a:hover { background-color: #EAEAEA; }
+
+/* /Submenu */
+
+
+/* Cuando este a la Izq, para esconderlo posicionarlo a la Izq a -width */
+
+.left { left: -140px; }
+
+.show { left: 0; }
+
+#showmenu {
+  margin-left: 115px;
+  margin-top: 0.9em;
+  position: absolute;
+  top: 0;
+  padding: 6px 10px 7px 10px;
+  font-size: 1.3em;
+  color: #FFCC33;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+
+/************** END OF SIDE MENU ******************/
 
 
 
