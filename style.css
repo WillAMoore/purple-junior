@@ -62,7 +62,7 @@ header {
 }
 
 #menuicon {
-	background-image: url(http://localhost/wordpress/wp-content/themes/purple-junior/img/icons/menu.svg);
+	background-image: url(http://purplejunior.dev.purplegroup.com/wp-content/themes/purple-junior/img/icons/menu.svg);
 	background-size: 13px  ;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -70,14 +70,14 @@ header {
 
 
 #seacrhicon {
-	background-image: url(http://localhost/wordpress/wp-content/themes/purple-junior/img/icons/search.svg);
+	background-image: url(http://purplejunior.dev.purplegroup.com/wp-content/themes/purple-junior/img/icons/search.svg);
 	background-size: 13px  ;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #shareicon {
-	background-image: url(http://localhost/wordpress/wp-content/themes/purple-junior/img/icons/share.svg);
+	background-image: url(http://purplejunior.dev.purplegroup.com/wp-content/themes/purple-junior/img/icons/share.svg);
 	background-size: 13px  ;
 	background-repeat: no-repeat;
 	background-position: center;
