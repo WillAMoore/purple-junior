@@ -20,7 +20,7 @@
                     <div class="logo-sidemenu"> Purple Junior</div>
                     <ul>
                         <li> <a href="#"> Home</a></li>
-                        <li> <a href="#"> Showcase </a>
+                        <li> <a href="#"> Showcase <i class="vasso-down"> </i></a>
                         <ul>
                             <li><a href="#">ui / ux web & apps </a></li>
                             <li><a href="#">web application</a></li>
