@@ -17,10 +17,20 @@
             <img src="<?php echo get_template_directory_uri();?>/img/logo-purple-junior.png"></img>
         </div>
         <div class="col-sm-6 hidden-xs">
-            <div class="pull-right">
-                <img src="<?php echo get_template_directory_uri();?>/img/icon-search.png"></img>
+            <p id="seacrhicon"  class="circle"> </p>
+          <div class="pull-right">
+              <!--          <img src="<?php echo get_template_directory_uri();?>/img/icon-search.png"></img>
                 <input type="text">
                 <img src="<?php echo get_template_directory_uri();?>/img/icon-share.png"></img>
+            -->
+
+                <div class="group">
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label> <em> Search for... </em></label>
+                </div>
+            <p  id="shareicon" class="circle"></p>
 
             </div>
         </div>
