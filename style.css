@@ -24,12 +24,7 @@ p {
 
 }
 
-#navbar {
-	background-color:#fff;
-	border:none;
-	margin-bottom:0;
-	margin-top: 10px;
-}
+
 
 .footer .col-xs-12{
 	padding-top: 25px;
@@ -44,9 +39,22 @@ p {
 }
 
 /*Header*/
+
+#navbar {
+	background-color:#fff;
+	border:none;
+	margin-bottom:0;
+	margin-top: 10px;
+}
+
 header {
-  height: 64px;
-      padding: 21px 0;
+	height: 64px;
+	padding: 21px 0;
+}
+
+.header-space {
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .logo{
@@ -54,142 +62,141 @@ header {
 }
 
 #menuicon {
-  background-image: url(/img/icons/menu.svg);
-   background-size: 13px  ;
-    background-repeat: no-repeat;
-    background-position: center;
+	background-image: url(http://localhost/wordpress/wp-content/themes/purple-junior/img/icons/menu.svg);
+	background-size: 13px  ;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 
 #seacrhicon {
-  background-image: url(/img/icons/search.svg);
-   background-size: 13px  ;
-    background-repeat: no-repeat;
-    background-position: center;
+	background-image: url(http://localhost/wordpress/wp-content/themes/purple-junior/img/icons/search.svg);
+	background-size: 13px  ;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #shareicon {
-  background-image: url(/img/icons/share.svg);
-   background-size: 13px  ;
-    background-repeat: no-repeat;
-    background-position: center;
+	background-image: url(http://localhost/wordpress/wp-content/themes/purple-junior/img/icons/share.svg);
+	background-size: 13px  ;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .menu-btn{
-   float: left;
-  display: block;
-    width:20px;
-  height:20px;
-  margin-left: 24px;
+	float: left;
+	display: block;
+	width:20px;
+	height:20px;
+	margin-left: 24px;
 
 }
 .circle{
-  float: right;
-  margin-right: 26px;
-  width:20px;
-  height:20px;
-  border-radius:25px;
-  font-size:8px;
-  color:#fff;
-  line-height:100px;
-  text-align:center;
-  background:#fed910;
-  -webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.49);
--moz-box-shadow:    1px 1px 1px 0px rgba(50, 50, 50, 0.49);
-box-shadow:         1px 1px 1px 0px rgba(50, 50, 50, 0.49);
+/*	float: right;*/
+/*	margin-right: 26px;*/
+	width:20px;
+	height:20px;
+	border-radius:25px;
+	font-size:8px;
+	color:#fff;
+	line-height:100px;
+	text-align:center;
+	background:#fed910;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.49);
+	-moz-box-shadow:    1px 1px 1px 0px rgba(50, 50, 50, 0.49);
+	box-shadow:         1px 1px 1px 0px rgba(50, 50, 50, 0.49);
 }
 /* ---------------- search input *******************/
 
 .group        {
-  position:relative;
-  margin-bottom:45px;
+	position:relative;
+	margin-bottom:5px;
 }
 input         {
-  font-size:12px;
-
-  display:block;
-  width:150px;
-  border:none;
-  border-bottom:1px solid #c5c5c5;
+	font-size:12px;
+	display:block;
+	width:150px;
+	border:none;
+	border-bottom:1px solid #c5c5c5;
 }
 input:focus     { outline:none; }
 
 /* LABEL ======================================= */
 label          {
-  color:#999;
-  font-size:10px;
-  font-weight:normal;
-  position:absolute;
-  pointer-events:none;
-  left:5px;
-  top:5px;
-  transition:0.2s ease all;
-  -moz-transition:0.2s ease all;
-  -webkit-transition:0.2s ease all;
+	color:#999;
+	font-size:10px;
+	font-weight:normal;
+	position:absolute;
+	pointer-events:none;
+	left:5px;
+	top:5px;
+	transition:0.2s ease all;
+	-moz-transition:0.2s ease all;
+	-webkit-transition:0.2s ease all;
 }
 
 /* active state */
 input:focus ~ label, input:valid ~ label    {
-  top:-20px;
-  font-size:8px;
-  color:#d13d67;
+	top:-20px;
+	font-size:8px;
+	color:#d13d67;
 }
 
 /* BOTTOM BARS ================================= */
 .bar  { position:relative; display:block;  width:150px; }
 .bar:before, .bar:after   {
-  content:'';
-  height:2px;
-  width:0;
-  bottom:1px;
-  position:absolute;
-  background:#ffec18;
-  transition:0.2s ease all;
-  -moz-transition:0.2s ease all;
-  -webkit-transition:0.2s ease all;
+	content:'';
+	height:2px;
+	width:0;
+	bottom:1px;
+	position:absolute;
+	background:#ffec18;
+	transition:0.2s ease all;
+	-moz-transition:0.2s ease all;
+	-webkit-transition:0.2s ease all;
 }
 .bar:before {
-  left:50%;
+	left:50%;
 }
 .bar:after {
-  right:50%;
+	right:50%;
 }
 
 /* active state */
 input:focus ~ .bar:before, input:focus ~ .bar:after {
-  width:50%;
+	width:50%;
 }
 
 /* HIGHLIGHTER ================================== */
 .highlight {
-  position:absolute;
-  height:50%;
-  width:inherit;
-  top:25%;
-  left:0;
-  pointer-events:none;
-  opacity:0.5;
+	position:absolute;
+	height:50%;
+	width:inherit;
+	top:25%;
+	left:0;
+	pointer-events:none;
+	opacity:0.5;
 }
 
 /* active state */
 input:focus ~ .highlight {
-  -webkit-animation:inputHighlighter 0.3s ease;
-  -moz-animation:inputHighlighter 0.3s ease;
-  animation:inputHighlighter 0.3s ease;
+	-webkit-animation:inputHighlighter 0.3s ease;
+	-moz-animation:inputHighlighter 0.3s ease;
+	animation:inputHighlighter 0.3s ease;
 }
 
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
-  from { background:#ffec18; }
-  to  { width:0; background:transparent; }
+	from { background:#ffec18; }
+	to  { width:0; background:transparent; }
 }
 @-moz-keyframes inputHighlighter {
-  from { background:#ffec18; }
-  to  { width:0; background:transparent; }
+	from { background:#ffec18; }
+	to  { width:0; background:transparent; }
 }
 @keyframes inputHighlighter {
-  from { background:#ffec18; }
-  to  { width:0; background:transparent; }
+	from { background:#ffec18; }
+	to  { width:0; background:transparent; }
 }
 
 /************* search input done */
