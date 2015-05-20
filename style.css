@@ -68,17 +68,18 @@ header {
 	height: 64px;
 	color: #333;
 	padding-left: 1em;
-	line-height: 4.5em;
+	line-height: 3em;
 	font-weight: 300;
 	background-color: #fed910;
 	-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.29);
 	-moz-box-shadow:    1px 1px 1px 0px rgba(50, 50, 50, 0.29);
 	box-shadow:         1px 1px 1px 0px rgba(50, 50, 50, 0.29);
+	font-size: 20px;
 }
 
 #menuicon {
 	background-image: url(http://purplejunior.dev.purplegroup.com/wp-content/themes/purple-junior/img/icons/menu.svg);
-	background-size: 13px  ;
+	background-size: 20px  ;
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -103,7 +104,7 @@ header {
 	display: block;
 	width:20px;
 	height:20px;
-	margin-left: 24px;
+	margin-left: 89px;
 
 }
 .circle{
@@ -223,7 +224,7 @@ input:focus ~ .highlight {
   background-color: #fff;
   height: 100%;
   z-index: 10;
-  width: 180px;
+  width: 250px;
   color: #595959;
   top: 0;
   -webkit-transition: all 0.3s ease;
@@ -248,7 +249,7 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 
 #menu ul li a {
   color: inherit;
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   padding: 8px 0 8px 17px;
   text-decoration: none;
