@@ -78,4 +78,16 @@
 		</div>
 	</div>
 
+	<div class="home-section section-7  col-xs-12">
+		<div class="col-sm-4 col-xs-12 text-left">
+			<p>Purple Junior all rights reserved 2015</p>
+		</div>
+		<div class="col-sm-4 col-xs-12 text-center">
+			<p>sayhello@purplejunior.com</p>
+		</div>
+		<div class="col-sm-4 col-xs-12 text-right">
+			<p>...</p>
+		</div>
+	</div>
+
 <?php get_footer(); ?>

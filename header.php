@@ -14,7 +14,7 @@
 
 <body <?php body_class(); ?>>
     <div >
-        <nav id="navbar" class="navbar navbar-default">
+<!--        <nav id="navbar" class="navbar navbar-default">
             <div class="col-sm-6 col-xs-12">
                 <div id="menu" class="left">
                     <div class="logo-sidemenu"> Purple Junior</div>
@@ -61,4 +61,4 @@
                     </div>
                 </div>
             </div>
-        </nav> <!-- /#navbar -->
+        </nav> --><!-- /#navbar -->
