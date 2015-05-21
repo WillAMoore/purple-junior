@@ -3,7 +3,7 @@
 <div class="footer">
 	<div class="footer-section-1 col-xs-12 text-center">
 		<div class="col-sm-3 col-xs-12 text-left">
-			<h3>About Us<h3>
+			<h3 class="blue-underline">About Us</h3>
 			<p>
 				From design to development Purple Junior is writing
 				something SEO correct and have only three lines max
@@ -11,7 +11,7 @@
 			</p>
 		</div>
 		<div class="col-sm-3 col-xs-12 text-left">
-			<h3>News Feeds<h3>
+			<h3 class="blue-underline">News Feeds</h3>
 			<p>
 				Do not give up on adding YOUR very own personal style
 				to your #weddingdaylook http://t.co/2HJvay2rbW
@@ -19,7 +19,7 @@
 			</p>
 		</div>
 		<div class="col-sm-3 col-xs-12 text-left">
-			<h3>Our Services<h3>
+			<h3 class="grey-underline">Our Services</h3>
 			<p>
 				Our UI/UX web &amp; app design, branding, printing,
 				custom relational management system, location based
@@ -27,7 +27,7 @@
 			</p>
 		</div>
 		<div class="col-sm-3 col-xs-12 text-left">
-			<h3>Purple Junior<h3>
+			<h3 class="grey-underline">Purple Junior</h3>
 			<p>
 				<p>
 					Unit 21 &amp; 22 Big Yellow<br>

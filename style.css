@@ -33,6 +33,14 @@ p {
 	height:300px;
 }
 
+.footer .footer-section-1 h3.blue-underline{
+	border-bottom: 1px solid #2CACBF;
+}
+
+.footer .footer-section-1 h3.grey-underline{
+	border-bottom: 1px solid #5D5D5D;
+}
+
 .footer .footer-section-2{
 	padding-top: 50px;
 	padding-bottom: 30px;
@@ -52,6 +60,11 @@ p {
 	font-size:40px;
     margin-top: -1.7em;
 }
+
+
+
+
+
 
 /*Header*/
 
