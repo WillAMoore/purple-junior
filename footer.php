@@ -53,7 +53,28 @@
 			<p><a href="mailto:sayhello@purplejunior.com">sayhello@purplejunior.com</a></p>
 		</div>
 		<div class="col-sm-4 col-xs-12 text-right">
-			<p>...</p>
+			<div class="pull-right">
+				<a href="http://www.google.com">
+					<p class="circle social-button facebook-color col-xs-3">
+						<i class="fa fa-facebook"></i>
+					</p>
+				</a>
+				<a href="http://www.google.com">
+					<p class="circle social-button twitter-color col-xs-3">
+						<i class="fa fa-twitter"></i>
+					</p>
+				</a>
+				<a href="http://www.google.com">
+					<p class="circle social-button googleplus-color col-xs-3">
+						<i class="fa fa-google-plus"></i>
+					</p>
+				</a>
+				<a href="http://www.google.com">
+					<p class="circle social-button linkedin-color col-xs-3">
+						<i class="fa fa-linkedin"></i>
+					</p>
+				</a>
+			</div>
 		</div>
 	</div>
 

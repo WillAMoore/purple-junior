@@ -11,6 +11,7 @@
 	</div>
 
 	<div class="home-section home-section-2  col-xs-12">
+		<button type="button" class="col-xs-6 col-xs-offset-3 text-center">Button!! </button>
 
 		<div class="col-md-4 col-xs-12 text-center">
 			<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img1.png"></img>
@@ -75,6 +76,29 @@
 		<h2 class="col-xs-6 col-xs-offset-3 text-center">Tell us how you feel today</h2>
 		<div class="col-xs-4 col-xs-offset-4">
 			<?php echo do_shortcode('[contact-form-7 id="9" title="Contact form 1"]'); ?>
+		</div>
+		<div class="col-xs-4 col-xs-offset-4">
+			<a href="http://www.google.com">
+				<p class="circle social-button facebook-color col-xs-3">
+					<i class="fa fa-facebook"></i>
+				</p>
+			</a>
+			<a href="http://www.google.com">
+				<p class="circle social-button twitter-color col-xs-3">
+					<i class="fa fa-twitter"></i>
+				</p>
+			</a>
+			<a href="http://www.google.com">
+				<p class="circle social-button googleplus-color col-xs-3">
+					<i class="fa fa-google-plus"></i>
+				</p>
+			</a>
+			<a href="http://www.google.com">
+				<p class="circle social-button linkedin-color col-xs-3">
+					<i class="fa fa-linkedin"></i>
+	 			</p>
+			</a>
+
 		</div>
 	</div>
 
