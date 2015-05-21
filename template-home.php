@@ -11,24 +11,26 @@
 	</div>
 
 	<div class="home-section home-section-2  col-xs-12">
-		<button type="button" class="col-xs-6 col-xs-offset-3 text-center">Button!! </button>
-
-		<div class="col-md-4 col-xs-12 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img1.png"></img>
-			<h3>Design</h3>
-			<p>Lorem ipsum dolor sit amet</p>
+		<div class="col-xs-12 button-container">
+			<button type="button" class="btn btn-default">Our Story</button>
 		</div>
-		<div class="col-md-4 col-xs-12 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img2.png"></img>
-			<h3>Web Apps</h3>
-			<p>Lorem ipsum dolor sit amet</p>
+		<div class="col-xs-12">
+			<div class="col-md-4 col-xs-12 text-center">
+				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img1.png"></img>
+				<h3>Design</h3>
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+			<div class="col-md-4 col-xs-12 text-center">
+				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img2.png"></img>
+				<h3>Web Apps</h3>
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+			<div class="col-md-4 col-xs-12 text-center">
+				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img3.png"></img>
+				<h3>Web Marketing</h3>
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
 		</div>
-		<div class="col-md-4 col-xs-12 text-center">
-			<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img3.png"></img>
-			<h3>Web Marketing</h3>
-			<p>Lorem ipsum dolor sit amet</p>
-		</div>
-
 
 	</div>
 

@@ -440,6 +440,22 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
     width: 50%;
 }
 
+.home-section-2 .button-container {
+    margin-top: -115px;
+	text-align:center;
+}
+
+.home-section-2 .button-container button{
+    width:90px;
+	margin: 0 auto;
+	background-color:#F7E86B;
+	color:#5D5D5C;
+	border-radius: 500px;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.49);
+	-moz-box-shadow:    1px 1px 1px 0px rgba(50, 50, 50, 0.49);
+	box-shadow:         1px 1px 1px 0px rgba(50, 50, 50, 0.49);
+}
+
 .home-section-3 {
 	background-color: #f7e76b;
 	color: #5d5d5d;
