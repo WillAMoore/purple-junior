@@ -34,11 +34,13 @@ p {
 }
 
 .footer .footer-section-1 h3.blue-underline{
-	border-bottom: 1px solid #2CACBF;
+	border-bottom: 2px solid #2CACBF;
+	padding-bottom: 10px;
 }
 
 .footer .footer-section-1 h3.grey-underline{
-	border-bottom: 1px solid #5D5D5D;
+	border-bottom: 2px solid #5D5D5D;
+	padding-bottom: 10px;
 }
 
 .footer .footer-section-2{
