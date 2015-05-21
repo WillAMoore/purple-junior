@@ -486,6 +486,12 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 	margin-top:146px;
 }
 
+.dotted-img {
+    left: 26%;
+    position: absolute;
+    top: 293px;
+}
+
 .home-section-5 {
 	background-color: #fff;
 }
