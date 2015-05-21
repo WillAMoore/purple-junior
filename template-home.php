@@ -77,28 +77,28 @@
 		<div class="col-xs-4 col-xs-offset-4">
 			<?php echo do_shortcode('[contact-form-7 id="9" title="Contact form 1"]'); ?>
 		</div>
-		<div class="col-xs-4 col-xs-offset-4">
-			<a href="http://www.google.com">
-				<p class="circle social-button facebook-color col-xs-3">
-					<i class="fa fa-facebook"></i>
-				</p>
-			</a>
-			<a href="http://www.google.com">
-				<p class="circle social-button twitter-color col-xs-3">
-					<i class="fa fa-twitter"></i>
-				</p>
-			</a>
-			<a href="http://www.google.com">
-				<p class="circle social-button googleplus-color col-xs-3">
-					<i class="fa fa-google-plus"></i>
-				</p>
-			</a>
-			<a href="http://www.google.com">
-				<p class="circle social-button linkedin-color col-xs-3">
-					<i class="fa fa-linkedin"></i>
-	 			</p>
-			</a>
-
+		<div class="col-xs-2 col-xs-offset-5">
+				<a href="http://www.google.com" class="col-xs-3" >
+					<p class="circle social-button facebook-color col-xs-3">
+						<i class="fa fa-facebook"></i>
+					</p>
+				</a>
+				<a href="http://www.google.com" class="col-xs-3">
+					<p class="circle social-button twitter-color col-xs-3">
+						<i class="fa fa-twitter"></i>
+					</p>
+				</a>
+				<a href="http://www.google.com" class="col-xs-3">
+					<p class="circle social-button googleplus-color col-xs-3">
+						<i class="fa fa-google-plus"></i>
+					</p>
+				</a>
+				<a href="http://www.google.com" class="col-xs-3">
+					<p class="circle social-button linkedin-color col-xs-3">
+						<i class="fa fa-linkedin"></i>
+		 			</p>
+				</a>
+			</div>
 		</div>
 	</div>
 
