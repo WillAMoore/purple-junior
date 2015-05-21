@@ -6,7 +6,8 @@
 
 	<div class="home-section home-section-1  col-xs-12">
 
-		<h1 class="col-xs-6 col-xs-offset-3 text-center"> We Are a Digital Studio With Different Backgrounds But Only One Goal</h1>
+		<h1 class="col-xs-6 col-xs-offset-3 text-center"> We Are a
+			Digital Studio With Different Backgrounds But Only One Goal</h1>
 
 	</div>
 
@@ -18,17 +19,17 @@
 			<div class="col-md-4 col-xs-12 text-center">
 				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img1.png"></img>
 				<h3>Design</h3>
-				<p>Lorem ipsum dolor sit amet</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
 			<div class="col-md-4 col-xs-12 text-center">
 				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img2.png"></img>
 				<h3>Web Apps</h3>
-				<p>Lorem ipsum dolor sit amet</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
 			<div class="col-md-4 col-xs-12 text-center">
 				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img3.png"></img>
 				<h3>Web Marketing</h3>
-				<p>Lorem ipsum dolor sit amet</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
 		</div>
 
@@ -48,7 +49,7 @@
 		<div class="col-xs-12 text-center">
 			<h2 class="col-xs-6 col-xs-offset-3 text-center">Web Marketing</h2>
 			<i class="fa fa-heart col-xs-6 col-xs-offset-3 text-center"></i>
-			<img class="col-xs-12 col-md-8 col-md-offset-2" src="<?php echo get_template_directory_uri();?>/img/home-sect4-fullgraphic.png"></img>
+			<img class="col-xs-12 col-md-8 col-md-offset-2" src="<?php echo get_template_directory_uri();?>/img/4-img1.png"></img>
 		</div>
 
 	</div>

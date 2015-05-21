@@ -24,6 +24,10 @@ p {
 
 }
 
+span.larger {
+	font-size:1.4em
+}
+
 /*Footer*/
 
 .footer .footer-section-1{
@@ -428,7 +432,9 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 }
 
 .home-section-1 h1{
-	font-size:40px;
+	font-size:30px;
+	font-weight: lighter;
+	font-variant: small-caps;
 }
 
 .home-section-2 {
