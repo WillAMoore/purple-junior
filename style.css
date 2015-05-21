@@ -24,9 +24,10 @@ p {
 
 }
 
-span.larger {
-	font-size:1.4em
+.small-caps{
+	font-variant: small-caps;
 }
+
 
 /*Footer*/
 
@@ -479,6 +480,10 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 .home-section-4 .fa-heart {
 	color: #fc611f;
 	font-size:30px;
+}
+
+.home-section-4 .keyboard-img{
+	margin-top:146px;
 }
 
 .home-section-5 {

@@ -49,7 +49,42 @@
 		<div class="col-xs-12 text-center">
 			<h2 class="col-xs-6 col-xs-offset-3 text-center">Web Marketing</h2>
 			<i class="fa fa-heart col-xs-6 col-xs-offset-3 text-center"></i>
-			<img class="col-xs-12 col-md-8 col-md-offset-2" src="<?php echo get_template_directory_uri();?>/img/4-img1.png"></img>
+			<img class="col-xs-12 col-md-6 col-md-offset-3" src="<?php echo get_template_directory_uri();?>/img/4-img1.png"></img>
+			<div class="col-xs-12 col-md-2 col-md-offset-5">
+				<h3 class="small-caps">Digital Promotion</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
+				</p>
+			</div>
+			<div class="col-xs-12 col-md-4 col-md-offset-4">
+				<div class="col-sm-7 col-xs-12">
+					<h3 class="small-caps">Social Media Strategy</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
+					</p>
+				</div>
+				<img class="col-sm-4 col-xs-12" src="<?php echo get_template_directory_uri();?>/img/4-img2.png"></img>
+
+			</div>
+			<div class="col-xs-12 col-md-5 col-md-offset-3">
+				<div class="col-sm-5 col-xs-12">
+					<h3 class="small-caps">Landing Pages</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
+					</p>
+					<img class="col-xs-offset-3 col-xs-6" src="<?php echo get_template_directory_uri();?>/img/4-img3.png"></img>
+				</div>
+				<img class="col-sm-4 col-xs-12 keyboard-img" src="<?php echo get_template_directory_uri();?>/img/4-img4.png"></img>
+
+			</div>
+			<div>
+
+			</div>
+
+
 		</div>
 
 	</div>
