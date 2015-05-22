@@ -486,10 +486,23 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 	margin-top:146px;
 }
 
+.home-section-4 .landing-pages {
+    margin-top: 194px;
+}
+
+.home-section-4 .social-strategy {
+    margin-top: 114px;
+}
+
+.the-computer {
+    margin-top: 20px;
+}
+
 .dotted-img {
-    left: 26%;
+    left: 0;
     position: absolute;
-    top: 293px;
+    top: 313px;
+    width: 100%;
 }
 
 .home-section-5 {
@@ -520,6 +533,14 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 /* MEDIUM DEVICES (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+	.dotted-img {
+	    height: auto;
+	    left: 17%;
+	    position: absolute;
+	    top: 242px;
+	    width: 60%;
+	}
+
 
 }
 
@@ -528,5 +549,24 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 /* LARGE DEVICES (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+	.home-section-4 .landing-pages {
+	    margin-top: 123px;
+	}
+
+	.dotted-img {
+	    height: auto;
+	    left: 23%;
+	    position: absolute;
+	    top: 337px;
+	    width: 50%;
+	}
+
+	.home-section-4 .landing-pages {
+	    margin-top: 346px;
+	}
+
+	.home-section-4 .social-strategy {
+	    margin-top: 138px;
+	}
 
 }

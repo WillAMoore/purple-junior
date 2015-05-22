@@ -52,14 +52,14 @@
 			<div class="dotted-line">
 				<img class="col-xs-12 col-md-6 col-md-offset-3" src="<?php echo get_template_directory_uri();?>/img/4-img1.png"></img>
 				<img class="dotted-img" src="<?php echo get_template_directory_uri();?>/img/4-dotted-line.png"></img>
-				<div class="col-xs-12 col-md-2 col-md-offset-5">
+				<div class="col-xs-8 col-xs-offset-4 col-md-3 col-md-offset-6">
 					<h3 class="small-caps">Digital Promotion</h3>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
 					</p>
 				</div>
-				<div class="col-xs-12 col-md-4 col-md-offset-4">
+				<div class="col-xs-12 col-md-4 col-md-offset-4 social-strategy">
 					<div class="col-sm-7 col-xs-12">
 						<h3 class="small-caps">Social Media Strategy</h3>
 						<p>
@@ -70,7 +70,7 @@
 					<img class="col-sm-4 col-xs-12" src="<?php echo get_template_directory_uri();?>/img/4-img2.png"></img>
 
 				</div>
-				<div class="col-xs-12 col-md-5 col-md-offset-3">
+				<div class="col-xs-12 col-md-5 col-md-offset-3 landing-pages">
 					<div class="col-sm-5 col-xs-12">
 						<h3 class="small-caps">Landing Pages</h3>
 						<p>
@@ -84,7 +84,14 @@
 				</div>
 			</div>
 
-			<div>
+			<div class="col-xs-12 col-md-5 col-md-offset-3 landing-pages">
+				<div class="col-xs-12 col-md-6 col-md-offset-3">
+					<h3 class="small-caps">SEO &amp; Analytics Magement</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
+					</p>
+				</div>
 
 			</div>
 
