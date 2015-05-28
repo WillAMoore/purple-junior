@@ -59,7 +59,7 @@
 						Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
 					</p>
 				</div>
-				<div class="col-xs-12 col-md-4 col-md-offset-4 social-strategy">
+				<div class="col-xs-12 col-lg-5 col-lg-offset-3 social-strategy">
 					<div class="col-sm-7 col-xs-12">
 						<h3 class="small-caps">Social Media Strategy</h3>
 						<p>
@@ -67,10 +67,10 @@
 							Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
 						</p>
 					</div>
-					<img class="col-sm-4 col-xs-12" src="<?php echo get_template_directory_uri();?>/img/4-img2.png"></img>
+					<img class="col-sm-4 col-xs-12 col-lg-4 col-lg-offset-1 bee-pic" src="<?php echo get_template_directory_uri();?>/img/4-img2.png"></img>
 
 				</div>
-				<div class="col-xs-12 col-md-5 col-md-offset-3 landing-pages">
+				<div class="col-xs-12 col-md-5 col-md-offset-3 col-lg-5 col-lg-offset-4 landing-pages">
 					<div class="col-sm-5 col-xs-12">
 						<h3 class="small-caps">Landing Pages</h3>
 						<p>

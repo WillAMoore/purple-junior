@@ -541,6 +541,14 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 	    width: 60%;
 	}
 
+	.home-section-4 .social-strategy {
+		margin-top: 89px;
+	}
+
+	.bee-pic {
+		margin-top: 62px;
+	}
+
 
 }
 
@@ -556,6 +564,7 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 	.dotted-img {
 	    height: auto;
 	    left: 23%;
+	    max-width: 870px;
 	    position: absolute;
 	    top: 337px;
 	    width: 50%;
@@ -566,7 +575,9 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 	}
 
 	.home-section-4 .social-strategy {
-	    margin-top: 138px;
+	    margin-top: 116px;
 	}
+
+
 
 }
