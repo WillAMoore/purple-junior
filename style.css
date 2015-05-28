@@ -475,11 +475,15 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 .home-section-4 {
 	background-color: #5d5d5d;
 	color: #fff;
+	font-size: 16px;
+	padding-left: 20px;
 }
 
 .home-section-4 .fa-heart {
 	color: #fc611f;
 	font-size:30px;
+	padding-bottom: 10px;
+	text-align: center;
 }
 
 .home-section-4 .keyboard-img{
@@ -487,11 +491,20 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 }
 
 .home-section-4 .landing-pages {
-    margin-top: 194px;
+    margin-top: 170px;
+}
+
+.home-section-4 .landing-inner {
+	margin-left: 53px;
 }
 
 .home-section-4 .social-strategy {
-    margin-top: 114px;
+    margin-top: 77px
+}
+
+.home-section-4 .social-strategy h3,
+.home-section-4 .landing-pages h3 {
+    margin-top: 0;
 }
 
 .the-computer {
@@ -499,9 +512,10 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 }
 
 .dotted-img {
-    left: 0;
+    left: -10px;
+	padding: 0 25px;
     position: absolute;
-    top: 313px;
+    top: 353px;
     width: 100%;
 }
 
@@ -512,6 +526,27 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 .home-section-6 {
 	background-color: #2cacbf;
 	color: #fff;
+}
+
+.digital-promo {
+	margin-right: 25px;
+	padding-top: 15px;
+}
+
+.bee-pic {
+	padding-left: 10px;
+}
+
+.frog {
+	width: 70%;
+}
+
+.graph {
+	margin: 0 25%;
+}
+
+.keyboard {
+	padding-top: 10px;
 }
 
 /*end home page styles*/

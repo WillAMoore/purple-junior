@@ -35,7 +35,7 @@
 
 	</div>
 
-	<div class="home-section home-section-3  col-xs-12">
+	<div class="home-section home-section-3 col-xs-12">
 		<div class="col-xs-12">
 			<h2 class="col-xs-6 col-xs-offset-3 text-center">Showcase</h2>
 			<div class="col-xs-10 col-xs-offset-1">
@@ -45,59 +45,92 @@
 
 	</div>
 
-	<div class="home-section home-section-4  col-xs-12">
-		<div class="col-xs-12 text-center">
-			<h2 class="col-xs-6 col-xs-offset-3 text-center">Web Marketing</h2>
-			<i class="fa fa-heart col-xs-6 col-xs-offset-3 text-center"></i>
-			<div class="dotted-line">
-				<img class="col-xs-12 col-md-6 col-md-offset-3" src="<?php echo get_template_directory_uri();?>/img/4-img1.png"></img>
-				<img class="dotted-img" src="<?php echo get_template_directory_uri();?>/img/4-dotted-line.png"></img>
-				<div class="col-xs-8 col-xs-offset-4 col-md-3 col-md-offset-6">
-					<h3 class="small-caps">Digital Promotion</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
-					</p>
-				</div>
-				<div class="col-xs-12 col-lg-5 col-lg-offset-3 social-strategy">
-					<div class="col-sm-7 col-xs-12">
-						<h3 class="small-caps">Social Media Strategy</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
-						</p>
+	<div class="home-section home-section-4 col-xs-12">
+		<div class='row'>
+			<h2 class="text-center">Web Marketing</h2>
+			<span class="col-xs-12 fa fa-heart text-center"></span>
+				<img class='img-responsive' src="<?php echo get_template_directory_uri();?>/img/4-img1.png">
+				<img class="img-responsive dotted-img" src="<?php echo get_template_directory_uri();?>/img/4-dotted-line.png">
+
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="digital-promo col-xs-7 pull-right">
+							<h3 class="small-caps">Digital Promotion</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
+							</p>
+						</div>
 					</div>
-					<img class="col-sm-4 col-xs-12 col-lg-4 col-lg-offset-1 bee-pic" src="<?php echo get_template_directory_uri();?>/img/4-img2.png"></img>
-
 				</div>
-				<div class="col-xs-12 col-md-5 col-md-offset-3 col-lg-5 col-lg-offset-4 landing-pages">
-					<div class="col-sm-5 col-xs-12">
-						<h3 class="small-caps">Landing Pages</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
-						</p>
-						<img class="col-xs-offset-3 col-xs-6" src="<?php echo get_template_directory_uri();?>/img/4-img3.png"></img>
+
+
+
+
+
+
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="social-strategy">
+							<div class='col-xs-offset-2 col-xs-6'>
+								<h3 class="small-caps">Social Media Strategy</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
+								</p>
+							</div>
+							<div class="col-xs-3">
+								<img class="img-responsive bee-pic" src="<?php echo get_template_directory_uri();?>/img/4-img2.png">
+							</div>
+						</div>
 					</div>
-					<img class="col-sm-4 col-xs-12 keyboard-img" src="<?php echo get_template_directory_uri();?>/img/4-img4.png"></img>
-
 				</div>
-			</div>
 
-			<div class="col-xs-12 col-md-5 col-md-offset-3 landing-pages">
-				<div class="col-xs-12 col-md-6 col-md-offset-3">
+
+
+
+
+
+
+				<div class="col-xs-12">
+					<div class="row landing-pages">
+						<div class="landing-inner col-xs-7 col-xs-offset-1">
+							<h3 class="small-caps">Landing Pages</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
+							</p>
+						</div>
+						<div class="col-xs-12">
+							<div class="row">
+								<div class="col-xs-3 col-xs-offset-1">
+									<img class='img-responsive frog' src="<?php echo get_template_directory_uri();?>/img/4-img3.png">
+								</div>
+								<div class="col-xs-8">
+									<img class='img-responsive keyboard' src="<?php echo get_template_directory_uri();?>/img/4-img4.png">
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+				</div>
+
+
+
+			<div class="row landing-pages">
+				<div class='col-xs-7 col-xs-offset-3'>
 					<h3 class="small-caps">SEO &amp; Analytics Magement</h3>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
 					</p>
+					<img class='graph' src="<?php echo get_template_directory_uri();?>/img/graph.png" alt="" />
 				</div>
 
 			</div>
-
-
 		</div>
-
 	</div>
 
 	<div class="home-section home-section-5  col-xs-12">
