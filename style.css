@@ -475,6 +475,7 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 .home-section-4 {
 	background-color: #5d5d5d;
 	color: #fff;
+	font-size: 16px;
 }
 
 .home-section-4 .fa-heart {
@@ -491,7 +492,12 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 }
 
 .home-section-4 .social-strategy {
-    margin-top: 114px;
+    margin-top: 90px
+}
+
+.home-section-4 .social-strategy h3,
+.home-section-4 .landing-pages h3 {
+    margin-top: 0;
 }
 
 .the-computer {
@@ -512,6 +518,14 @@ box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.29);
 .home-section-6 {
 	background-color: #2cacbf;
 	color: #fff;
+}
+
+.digital-promo {
+	margin-right: 25px;
+}
+
+.bee-pic {
+	padding-left: 10px;
 }
 
 /*end home page styles*/
