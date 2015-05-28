@@ -48,7 +48,7 @@
 	<div class="home-section home-section-4 col-xs-12">
 		<div class='row'>
 			<h2 class="text-center">Web Marketing</h2>
-			<span class="fa fa-heart text-center"></span>
+			<span class="col-xs-12 fa fa-heart text-center"></span>
 				<img class='img-responsive' src="<?php echo get_template_directory_uri();?>/img/4-img1.png">
 				<img class="img-responsive dotted-img" src="<?php echo get_template_directory_uri();?>/img/4-dotted-line.png">
 
@@ -94,7 +94,7 @@
 
 				<div class="col-xs-12">
 					<div class="row landing-pages">
-						<div class="col-xs-5 col-xs-offset-1">
+						<div class="landing-inner col-xs-7 col-xs-offset-1">
 							<h3 class="small-caps">Landing Pages</h3>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -103,11 +103,11 @@
 						</div>
 						<div class="col-xs-12">
 							<div class="row">
-								<div class="col-xs-6">
-									<img src="<?php echo get_template_directory_uri();?>/img/4-img3.png">
+								<div class="col-xs-3 col-xs-offset-1">
+									<img class='img-responsive frog' src="<?php echo get_template_directory_uri();?>/img/4-img3.png">
 								</div>
-								<div class="col-xs-6">
-									<img src="<?php echo get_template_directory_uri();?>/img/4-img4.png">
+								<div class="col-xs-8">
+									<img class='img-responsive keyboard' src="<?php echo get_template_directory_uri();?>/img/4-img4.png">
 								</div>
 							</div>
 						</div>
@@ -119,13 +119,14 @@
 
 
 
-			<div class="col-xs-4 landing-pages">
-				<div>
+			<div class="row landing-pages">
+				<div class='col-xs-7 col-xs-offset-3'>
 					<h3 class="small-caps">SEO &amp; Analytics Magement</h3>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
 					</p>
+					<img class='graph' src="<?php echo get_template_directory_uri();?>/img/graph.png" alt="" />
 				</div>
 
 			</div>
