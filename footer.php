@@ -1,8 +1,8 @@
 <!-- footer.php -->
 
-<div class="footer">
-	<div class="footer-section-1 col-xs-12 text-center">
-		<div class="col-sm-3 col-xs-12 text-left">
+<div class="footer row">
+	<div class="footer-section-1 col-xs-12">
+		<div>
 			<h3 class="blue-underline">About Us</h3>
 			<p>
 				From design to development Purple Junior is writing
@@ -10,7 +10,7 @@
 				or up to the point that everything looks in harmony.
 			</p>
 		</div>
-		<div class="col-sm-3 col-xs-12 text-left">
+		<div>
 			<h3 class="blue-underline">News Feeds</h3>
 			<p>
 				Do not give up on adding YOUR very own personal style
@@ -18,7 +18,7 @@
 				http://t.co/N3vA9YgRce, 24 hours ago
 			</p>
 		</div>
-		<div class="col-sm-3 col-xs-12 text-left">
+		<div>
 			<h3 class="grey-underline">Our Services</h3>
 			<p>
 				Our UI/UX web &amp; app design, branding, printing,
@@ -26,7 +26,7 @@
 				applications, applications for events.
 			</p>
 		</div>
-		<div class="col-sm-3 col-xs-12 text-left">
+		<div>
 			<h3 class="grey-underline">Purple Junior</h3>
 			<p>
 				<p>
@@ -45,46 +45,40 @@
 	</div>
 
 	<div class="footer-section-2 col-xs-12">
-		<i class="fa fa-heart col-xs-6 col-xs-offset-3 text-center"></i>
-		<div class="col-sm-4 col-xs-12 text-left">
+		<i class="fa fa-heart"></i>
+		<div>
 			<p>Purple Junior all rights reserved 2015</p>
 		</div>
-		<div class="col-sm-4 col-xs-12 text-center">
+		<div>
 			<p><a href="mailto:sayhello@purplejunior.com">sayhello@purplejunior.com</a></p>
 		</div>
-		<div class="col-sm-4 col-xs-12 text-right">
-			<div class="pull-right">
+		<div>
+			<div>
 				<a href="http://www.google.com">
-					<p class="circle social-button facebook-color col-xs-3">
+					<p class="circle social-button facebook-color">
 						<i class="fa fa-facebook"></i>
 					</p>
 				</a>
 				<a href="http://www.google.com">
-					<p class="circle social-button twitter-color col-xs-3">
+					<p class="circle social-button twitter-color">
 						<i class="fa fa-twitter"></i>
 					</p>
 				</a>
 				<a href="http://www.google.com">
-					<p class="circle social-button googleplus-color col-xs-3">
+					<p class="circle social-button googleplus-color">
 						<i class="fa fa-google-plus"></i>
 					</p>
 				</a>
 				<a href="http://www.google.com">
-					<p class="circle social-button linkedin-color col-xs-3">
+					<p class="circle social-button linkedin-color">
 						<i class="fa fa-linkedin"></i>
 					</p>
 				</a>
 			</div>
 		</div>
 	</div>
-
-
 </div>
-
-
-
 <?php wp_footer(); ?>
-</div>
 </body>
 
 </html>
