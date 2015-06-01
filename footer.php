@@ -1,8 +1,8 @@
 <!-- footer.php -->
 
 <div class="footer row">
-	<div class="footer-section-1 col-xs-12">
-		<div>
+	<div class="footer-section-1 clearfix">
+		<div class='col-xs-12 col-sm-3'>
 			<h3 class="blue-underline">About Us</h3>
 			<p>
 				From design to development Purple Junior is writing
@@ -10,7 +10,7 @@
 				or up to the point that everything looks in harmony.
 			</p>
 		</div>
-		<div>
+		<div class='col-xs-12 col-sm-3'>
 			<h3 class="blue-underline">News Feeds</h3>
 			<p>
 				Do not give up on adding YOUR very own personal style
@@ -18,7 +18,7 @@
 				http://t.co/N3vA9YgRce, 24 hours ago
 			</p>
 		</div>
-		<div>
+		<div class='col-xs-12 col-sm-3'>
 			<h3 class="grey-underline">Our Services</h3>
 			<p>
 				Our UI/UX web &amp; app design, branding, printing,
@@ -26,7 +26,7 @@
 				applications, applications for events.
 			</p>
 		</div>
-		<div>
+		<div class='col-xs-12 col-sm-3'>
 			<h3 class="grey-underline">Purple Junior</h3>
 			<p>
 				<p>
@@ -41,7 +41,6 @@
 				<p><a href="mailto:sayhello@purplejunior.com">sayhello@purplejunior.com</a></p>
 			</p>
 		</div>
-
 	</div>
 
 	<div class="footer-section-2 col-xs-12">

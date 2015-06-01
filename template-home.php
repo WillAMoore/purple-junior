@@ -10,20 +10,28 @@
 	</div>
 
 	<div class="home-section home-section-2 row">
-		<div class="button-container">
+		<div class="col-xs-12 button-container">
 			<button type="button" class="btn btn-default">Our Story</button>
 		</div>
-			<div class='col-xs-12 text-center'>
-				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img1.png"></img>
-				<h3>Design</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img2.png"></img>
-				<h3>Web Apps</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img3.png"></img>
-				<h3>Web Marketing</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<div class="col-xs-12">
+			<div class='row text-center'>
+				<div class="col-xs-12 col-sm-4">
+					<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img1.png"></img>
+					<h3>Design</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img2.png"></img>
+					<h3>Web Apps</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img3.png"></img>
+					<h3>Web Marketing</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
 			</div>
+		</div>
 	</div>
 
 	<div class="home-section home-section-3 row">
@@ -112,29 +120,29 @@
 		</div>
 
 	<div class="home-section home-section-5 row text-center">
-		<div class='col-xs-12'>
+		<div class='col-xs-12 col-sm-4'>
 			<img class='img-responsive' src="<?php echo get_template_directory_uri();?>/img/cisco-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/cisco-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/cisco-1.png'"></img>
 		</div>
-		<div class='col-xs-12'>
+		<div class='col-xs-12 col-sm-4'>
 			<img class='img-responsive' src="<?php echo get_template_directory_uri();?>/img/calix-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/calix-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/calix-1.png'"></img>
 		</div>
-		<div class='col-xs-12'>
+		<div class='col-xs-12 col-sm-4'>
 			<img class='img-responsive' src="<?php echo get_template_directory_uri();?>/img/swarovski.png"></img>
 		</div>
-		<div class='col-xs-12'>
+		<div class='col-xs-12 col-sm-4'>
 			<img class='img-responsive' src="<?php echo get_template_directory_uri();?>/img/silkstream-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/silkstream-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/silkstream-1.png'"></img>
 		</div>
-		<div class='col-xs-12'>
+		<div class='col-xs-12 col-sm-4'>
 			<img class='img-responsive' src="<?php echo get_template_directory_uri();?>/img/theshipleopard-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/theshipleopard-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/theshipleopard-1.png'"></img>
 		</div>
-		<div class='col-xs-12'>
+		<div class='col-xs-12 col-sm-4'>
 			<img class='img-responsive' src="<?php echo get_template_directory_uri();?>/img/cadenza-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/cadenza-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/cadenza-1.png'"></img>
 		</div>
 	</div>
 
 	<div class="home-section home-section-6 row">
 		<h2 class="text-center">Tell us how you feel today</h2>
-		<div class='col-xs-12'>
+		<div class='col-xs-12 col-sm-8 col-sm-offset-2'>
 			<?php echo do_shortcode('[contact-form-7 id="9" title="Contact form 1"]'); ?>
 		</div>
 		<div class='col-xs-12'>
