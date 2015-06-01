@@ -14,15 +14,15 @@
 			<button type="button" class="btn btn-default">Our Story</button>
 		</div>
 			<div class='col-xs-12 text-center'>
-					<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img1.png"></img>
-					<h3>Design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img2.png"></img>
-					<h3>Web Apps</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img3.png"></img>
-					<h3>Web Marketing</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img1.png"></img>
+				<h3>Design</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img2.png"></img>
+				<h3>Web Apps</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<img src="<?php echo get_template_directory_uri();?>/img/home-sect2-img3.png"></img>
+				<h3>Web Marketing</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
 	</div>
 
@@ -138,26 +138,28 @@
 			<?php echo do_shortcode('[contact-form-7 id="9" title="Contact form 1"]'); ?>
 		</div>
 		<div class='col-xs-12'>
-				<a href="http://www.google.com">
-					<p class="circle social-button facebook-color">
-						<i class="fa fa-facebook"></i>
-					</p>
-				</a>
-				<a href="http://www.google.com">
-					<p class="circle social-button twitter-color">
-						<i class="fa fa-twitter"></i>
-					</p>
-				</a>
-				<a href="http://www.google.com">
-					<p class="circle social-button googleplus-color">
-						<i class="fa fa-google-plus"></i>
-					</p>
-				</a>
-				<a href="http://www.google.com">
-					<p class="circle social-button linkedin-color">
-						<i class="fa fa-linkedin"></i>
-		 			</p>
-				</a>
+			<ul class='social-menu text-center'>
+				<li>
+					<a class="circle social-button facebook-color" href="http://www.google.com">
+						<span class="fa fa-facebook"></span>
+					</a>
+				</li>
+				<li>
+					<a class="circle social-button twitter-color" href="http://www.google.com">
+						<span class="fa fa-twitter"></span>
+					</a>
+				</li>
+				<li>
+					<a class="circle social-button googleplus-color" href="http://www.google.com">
+						<span class="fa fa-google-plus"></span>
+					</a>
+				</li>
+				<li>
+					<a class="circle social-button linkedin-color" href="http://www.google.com">
+						<span class="fa fa-linkedin"></span>
+					</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 <?php get_footer(); ?>

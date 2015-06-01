@@ -52,29 +52,29 @@
 		<div>
 			<p><a href="mailto:sayhello@purplejunior.com">sayhello@purplejunior.com</a></p>
 		</div>
-		<div>
-			<div>
-				<a href="http://www.google.com">
-					<p class="circle social-button facebook-color">
-						<i class="fa fa-facebook"></i>
-					</p>
-				</a>
-				<a href="http://www.google.com">
-					<p class="circle social-button twitter-color">
-						<i class="fa fa-twitter"></i>
-					</p>
-				</a>
-				<a href="http://www.google.com">
-					<p class="circle social-button googleplus-color">
-						<i class="fa fa-google-plus"></i>
-					</p>
-				</a>
-				<a href="http://www.google.com">
-					<p class="circle social-button linkedin-color">
-						<i class="fa fa-linkedin"></i>
-					</p>
-				</a>
-			</div>
+		<div class='col-xs-12'>
+			<ul class='social-menu text-right'>
+				<li>
+					<a class="circle social-button facebook-color" href="http://www.google.com">
+						<span class="fa fa-facebook"></span>
+					</a>
+				</li>
+				<li>
+					<a class="circle social-button twitter-color" href="http://www.google.com">
+						<span class="fa fa-twitter"></span>
+					</a>
+				</li>
+				<li>
+					<a class="circle social-button googleplus-color" href="http://www.google.com">
+						<span class="fa fa-google-plus"></span>
+					</a>
+				</li>
+				<li>
+					<a class="circle social-button linkedin-color" href="http://www.google.com">
+						<span class="fa fa-linkedin"></span>
+					</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 </div>
