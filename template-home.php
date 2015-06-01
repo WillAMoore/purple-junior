@@ -62,20 +62,17 @@
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
 						</p>
-					</div>
-					<div class='col-xs-12'>
-						<img class="bee-pic" src="<?php echo get_template_directory_uri();?>/img/4-img2.png">
-						<div>
-							<img class='visible-xs mobile-line' src="<?php echo get_template_directory_uri();?>/img/4-mobile-line.png" />
+
+						<div class='row'>
+							<div class='col-xs-4 col-xs-offset-4'>
+								<img class='visible-xs mobile-line' src="<?php echo get_template_directory_uri();?>/img/4-mobile-line.png" />
+							</div>
+							<div class="col-xs-3">
+								<img class="img-responsive bee-pic" src="<?php echo get_template_directory_uri();?>/img/4-img2.png">
+							</div>
 						</div>
 					</div>
 				</div>
-
-
-
-
-
-
 
 				<div class="row">
 					<div class="col-xs-12">
@@ -88,12 +85,16 @@
 				</div>
 
 				<div class='row'>
-					<div class='col-xs-6'>
-						<img class='frog' src="<?php echo get_template_directory_uri();?>/img/4-img3.png">
+					<div class='col-xs-3 col-xs-offset-1'>
+						<img class='frog img-responsive' src="<?php echo get_template_directory_uri();?>/img/4-img3.png">
 					</div>
-					<div class='col-xs-6'>
-						<img class='keyboard' src="<?php echo get_template_directory_uri();?>/img/4-img4.png">
+					<div class='col-xs-4'>
+						<img class='visible-xs mobile-line' src="<?php echo get_template_directory_uri();?>/img/4-mobile-line.png" />
 					</div>
+					<div class='col-xs-3'>
+						<img class='hidden-xs img-responsive keyboard' src="<?php echo get_template_directory_uri();?>/img/4-img4.png">
+					</div>
+
 				</div>
 
 				<div class='row'>

@@ -183,11 +183,14 @@ p {
 }
 
 .bee-pic {
-	margin: 0 0 0 35%;
+	max-width: 70%;
+	margin: 0 0 0 -45px;
 }
 
 .frog {
-	width: 70%;
+	max-width: 70%;
+	margin-left: 65px;
+	margin-top: 5px;
 }
 
 .graph {
@@ -195,7 +198,7 @@ p {
 }
 
 .keyboard {
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 .mobile-line {
