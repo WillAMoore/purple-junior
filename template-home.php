@@ -51,7 +51,7 @@
 				<img class='img-responsive imac' src="<?php echo get_template_directory_uri();?>/img/4-img1.png">
 				<img class="hidden-xs hidden-sm dotted-img" src="<?php echo get_template_directory_uri();?>/img/4-dotted-line.png">
 						<div class='row'>
-							<div class="digital-promo">
+							<div class="digital-promo col-md-5">
 								<h3 class="small-caps">Digital Promotion</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -60,13 +60,13 @@
 							</div>
 						</div>
 
-				<div>
-					<img class='visible-xs visible-sm mobile-line' src="<?php echo get_template_directory_uri();?>/img/4-mobile-line.png" />
+				<div class='visible-xs visible-sm'>
+					<img class='mobile-line' src="<?php echo get_template_directory_uri();?>/img/4-mobile-line.png" />
 				</div>
 
 
-				<div class="social-strategy row">
-					<div>
+				<div class="row">
+					<div class='col-md-5'>
 						<h3 class="small-caps">Social Media Strategy</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -82,7 +82,7 @@
 				</div>
 
 				<div class="row">
-					<div>
+					<div class='col-md-5'>
 						<h3 class="small-caps">Landing Pages</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -104,7 +104,7 @@
 				</div>
 
 				<div class='row'>
-					<div class="seo">
+					<div class="seo col-md-5">
 						<h3 class="small-caps">SEO &amp; Analytics Magement</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.

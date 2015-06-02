@@ -148,6 +148,10 @@ p {
 	margin-top:146px;
 }
 
+.imac {
+	margin: 0 auto;
+}
+
 .home-section-4 .landing-pages {
     margin-top: 170px;
 }
@@ -163,14 +167,6 @@ p {
 .home-section-4 .social-strategy h3,
 .home-section-4 .landing-pages h3 {
     margin-top: 0;
-}
-
-.dotted-img {
-    left: -10px;
-	padding: 0 25px;
-    position: absolute;
-    top: 353px;
-    width: 100%;
 }
 
 .digital-promo {
@@ -267,47 +263,27 @@ p {
 
 
 @media (min-width: 768px) {
-	/*.dotted-img {
-	    left: 160px;
-		padding: 0 25px;
-	    position: absolute;
-	    top: 317px;
-	    width: 65%;
-		height: auto;
-	}
 
-	.home-section-4 {
-		font-size: 14px;
-	}
 
-	.home-section-4 h3 {
-		font-size: 18px;
-	}
-
-	.imac {
-		margin: 0 auto;
-	}
-
-	.digital-promo {
-		padding-top: 40px;
-	}
-
-	.digital-promo h3 {
-		margin-top: 0;
-	}
-
-	.home-section-4 .social-strategy {
-		margin-top: 95px;
-	}
-
-	.seo {
-		padding-top: 300px;
-
-	}*/
 }
 
 /* MEDIUM DEVICES (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+.dotted-img {
+    left: 195px;
+    padding: 0 25px;
+    position: absolute;
+    top: 316px;
+}
+
+.home-section-4 {
+	font-size: 16px;
+}
+
+.home-section-4 h3 {
+	font-size: 20px;
+}
 
 }
 
@@ -315,5 +291,8 @@ p {
 
 /* LARGE DEVICES (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+	.container-fluid {
+		max-width: 90%;
+		margin: 0 auto;
+	}
 }
