@@ -267,7 +267,7 @@ p {
 
 
 @media (min-width: 768px) {
-	.dotted-img {
+	/*.dotted-img {
 	    left: 160px;
 		padding: 0 25px;
 	    position: absolute;
@@ -303,7 +303,7 @@ p {
 	.seo {
 		padding-top: 300px;
 
-	}
+	}*/
 }
 
 /* MEDIUM DEVICES (desktops, 992px and up) */
