@@ -165,10 +165,6 @@ p {
     margin-top: 0;
 }
 
-.the-computer {
-    margin-top: 20px;
-}
-
 .dotted-img {
     left: -10px;
 	padding: 0 25px;
@@ -271,8 +267,43 @@ p {
 
 
 @media (min-width: 768px) {
+	.dotted-img {
+	    left: 160px;
+		padding: 0 25px;
+	    position: absolute;
+	    top: 317px;
+	    width: 65%;
+		height: auto;
+	}
 
+	.home-section-4 {
+		font-size: 14px;
+	}
 
+	.home-section-4 h3 {
+		font-size: 18px;
+	}
+
+	.imac {
+		margin: 0 auto;
+	}
+
+	.digital-promo {
+		padding-top: 40px;
+	}
+
+	.digital-promo h3 {
+		margin-top: 0;
+	}
+
+	.home-section-4 .social-strategy {
+		margin-top: 95px;
+	}
+
+	.seo {
+		padding-top: 300px;
+
+	}
 }
 
 /* MEDIUM DEVICES (desktops, 992px and up) */
