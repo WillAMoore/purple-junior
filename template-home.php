@@ -143,7 +143,7 @@
 		<div class='col-sm-8 col-sm-offset-2'>
 			<?php echo do_shortcode('[contact-form-7 id="9" title="Contact form 1"]'); ?>
 		</div>
-		<div>
+		<div class='col-xs-12'>
 			<ul class='social-menu text-center'>
 				<li>
 					<a class="circle social-button facebook-color" href="http://www.google.com">
