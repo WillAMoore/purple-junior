@@ -355,11 +355,36 @@ span.fa-heart {
 	}
 
 	.digital-promo {
-		left: 800px;
+		left: 470px;
+		min-width: 400px;
 	}
 
 	.social-media {
-		left: 700px;
+		left: 200px;
 		top: 540px;
+		min-width: 400px;
+	}
+
+	.home-section-4 .landing-pages {
+    	margin-left: 125px;
+    	margin-top: 146px;
+	}
+
+	.landing-page-images {
+		left: 325px;
+	}
+}
+
+@media (min-width: 1300px) {
+	.digital-promo {
+		left: 550px;
+	}
+
+	.landing-pages {
+		left: -50px;
+	}
+
+	.seo {
+		top: 700px;
 	}
 }
