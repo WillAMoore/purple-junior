@@ -353,4 +353,13 @@ span.fa-heart {
 		left: 0;
 		right: 0;
 	}
+
+	.digital-promo {
+		left: 800px;
+	}
+
+	.social-media {
+		left: 700px;
+		top: 540px;
+	}
 }

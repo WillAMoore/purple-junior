@@ -51,7 +51,7 @@
 				<img class='img-responsive imac' src="<?php echo get_template_directory_uri();?>/img/4-img1.png">
 				<img class="hidden-xs hidden-sm dotted-img" src="<?php echo get_template_directory_uri();?>/img/4-dotted-line.png">
 						<div class='row'>
-							<div class="digital-promo col-md-5">
+							<div class="digital-promo col-md-5 col-lg-4">
 								<h3 class="small-caps">Digital Promotion</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -67,7 +67,7 @@
 
 				<div class="row">
 					<div class="social-media">
-					<div class='col-md-5'>
+					<div class='col-md-5 col-lg-4'>
 						<h3 class="small-caps">Social Media Strategy</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -84,7 +84,7 @@
 				</div>
 
 				<div class="row">
-					<div class='col-md-5 landing-pages'>
+					<div class='col-md-5 col-lg-4 landing-pages'>
 						<h3 class="small-caps">Landing Pages</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -109,7 +109,7 @@
 				</div>
 
 				<div class='row'>
-					<div class="seo col-md-5">
+					<div class="seo col-md-5 col-lg-4">
 						<h3 class="small-caps">SEO &amp; Analytics Magement</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
