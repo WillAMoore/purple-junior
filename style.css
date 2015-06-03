@@ -22,8 +22,8 @@ h1 {
 	font-size:26px;
 }
 
-p {
-
+span.fa-heart {
+	width: 100%;
 }
 
 .small-caps{
@@ -141,7 +141,6 @@ p {
 	font-size:30px;
 	padding-bottom: 10px;
 	text-align: center;
-	margin: 0 0 0 50%;
 }
 
 .home-section-4 .keyboard-img{
@@ -296,8 +295,11 @@ p {
 	    top: 316px;
 	}
 
-	.imac {
-		left: 200px;
+	.imac,
+	.dotted-img {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
 	}
 
 	.digital-promo {
@@ -311,7 +313,7 @@ p {
 	}
 
 	.landing-pages {
-		top: 430px;
+		top: 440px;
 	}
 
 	.landing-page-images {
