@@ -45,7 +45,7 @@
 	</div>
 
 	<div class="home-section home-section-4 row">
-		<div class='col-xs-12'>
+		<div class='col-xs-12 section-4-content'>
 			<h2 class="text-center">Web Marketing</h2>
 			<span class="fa fa-heart text-center"></span>
 				<img class='img-responsive imac' src="<?php echo get_template_directory_uri();?>/img/4-img1.png">

@@ -348,8 +348,9 @@ span.fa-heart {
 
 /* LARGE DEVICES (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-	/*.container-fluid {
-		max-width: 90%;
+	.section-4-content {
 		margin: 0 auto;
-	}*/
+		left: 0;
+		right: 0;
+	}
 }
