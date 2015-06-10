@@ -12,7 +12,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <div class='container-fluid'>
 <!--        <nav id="navbar" class="navbar navbar-default">
             <div class="col-sm-6 col-xs-12">
                 <div id="menu" class="left">
