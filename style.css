@@ -152,7 +152,7 @@ span.fa-heart {
 }
 
 .home-section-4 .landing-pages {
-    margin-top: 170px;
+
 }
 
 .home-section-4 .landing-inner {
@@ -169,7 +169,6 @@ span.fa-heart {
 }
 
 .digital-promo {
-	margin-right: 30px;
 	padding-top: 15px;
 }
 
@@ -207,11 +206,20 @@ span.fa-heart {
 	margin: 0 auto;
 }
 
+.home-section-5 > div {
+	padding-bottom: 20px;
+}
+
 /* HOME SECTION 6 */
 
 .home-section-6 {
 	background-color: #2cacbf;
 	color: #fff;
+}
+
+.fa.fa-facebook,
+.fa.fa-linkedin {
+	padding: 2px;
 }
 
 
@@ -262,7 +270,6 @@ span.fa-heart {
 
 
 @media (min-width: 768px) {
-
 
 }
 
