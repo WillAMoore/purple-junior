@@ -312,6 +312,7 @@ span.fa-heart {
 	.digital-promo {
 		left: 430px;
 		top: 240px;
+		max-width: 380px;
 	}
 
 	.social-media {
@@ -319,8 +320,13 @@ span.fa-heart {
 		top: 560px;
 	}
 
+	.social-media .col-md-5 {
+		max-width: 765px;
+	}
+
 	.landing-pages {
-		top: 440px;
+		top: 563px;
+		max-width: 380px;
 	}
 
 	.landing-page-images {
@@ -345,7 +351,7 @@ span.fa-heart {
 	}
 
 	.seo {
-		top: 650px;
+		top: 790px;
 		left: 350px;
 	}
 
@@ -372,26 +378,15 @@ span.fa-heart {
 		min-width: 400px;
 	}
 
+	.landing-pages {
+		top: 575px;
+	}
+
 	.home-section-4 .landing-pages {
     	margin-left: 125px;
-    	margin-top: 146px;
 	}
 
 	.landing-page-images {
 		left: 325px;
-	}
-}
-
-@media (min-width: 1300px) {
-	.digital-promo {
-		left: 550px;
-	}
-
-	.landing-pages {
-		left: -50px;
-	}
-
-	.seo {
-		top: 700px;
 	}
 }
