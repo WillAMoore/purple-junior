@@ -71,11 +71,11 @@
 
 
 			<div class="row">
-				<div class='col-md-5 col-lg-4'>
+				<div class='social-strategy col-md-5 col-lg-4'>
 					<h3 class="small-caps">Social Media Strategy</h3>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus lectus in mi cursus interdum. Nunc faucibus, erat id consectetur viverra, dolor leo accumsan lectus, sit amet condimentum leo eros eget nisi.
-						Nam dignissim et ipsum non mollis. Maecenas id mauris porttitor, ullamcorper odio at, cursus ex. Etiam vel tempor eros. Suspendisse feugiat hendrerit arcu a facilisis. In ex tellus, fringilla et facilisis eu,
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Curabitur volutpat orci eget dolor ultrices auctor. Morbi eget dolor nec erat rhoncus ornare eu vitae risus.
 					</p>
 				</div>
 			</div>
@@ -102,8 +102,10 @@
 				</div>
 			</div>
 
-			<div class='visible-xs visible-sm text-center'>
-				<img class='mobile-line' src="<?php echo get_template_directory_uri();?>/img/4-mobile-line.png" />
+			<div class="row">
+				<div class='visible-xs visible-sm text-center'>
+					<img class='mobile-line' src="<?php echo get_template_directory_uri();?>/img/4-mobile-line.png" />
+				</div>
 			</div>
 
 			<div class='row'>

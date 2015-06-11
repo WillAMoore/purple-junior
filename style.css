@@ -145,7 +145,7 @@ span.fa-heart {
 	background-color: #5d5d5d;
 	color: #fff;
 	font-size: 16px;
-	padding: 40px 70px;
+	padding: 40px 0;
 }
 
 .home-section-4 .fa-heart {
@@ -161,6 +161,7 @@ span.fa-heart {
 
 .imac {
 	margin: 0 auto;
+	padding: 0 10px;
 }
 
 .home-section-4 .landing-pages {
@@ -270,4 +271,83 @@ span.fa-heart {
 	font-size:40px;
     margin-top: -1.7em;
 	margin: 0 0 0 50%;
+}
+
+
+
+@media (min-width: 768px) {
+	.home-section-5 img {
+		margin: 0 auto;
+		width: 60%;
+	}
+}
+
+/* MEDIUM DEVICES (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	.home-section-4 .container {
+		position: relative !important;
+		height: 1500px;
+	}
+
+	.dotted-img,
+	.digital-promo,
+	.social-strategy,
+	.bee-pic,
+	.frog,
+	.keyboard,
+	.landing-pages,
+	.seo {
+		position: absolute !important;
+
+	}
+
+	.dotted-img {
+		left: 125px;
+		top: 349px;
+	}
+
+	.digital-promo {
+		left: 396px;
+		top: 383px;
+	}
+
+	.home-section-4 .social-strategy {
+		top: 610px;
+		left: 220px;
+		margin-top: 0;
+	}
+
+	.bee-pic {
+		top: 230px;
+		left: 620px;
+		width: 70%;
+	}
+
+	.landing-pages {
+		top: 880px;
+	}
+
+	.frog {
+		width: 50%;
+		top: 620px;
+	}
+
+	.keyboard {
+		top: 680px;
+	}
+
+	.seo {
+		left: 200px;
+		margin: 0 auto;
+		top: 1200px;
+	}
+
+}
+
+
+
+/* LARGE DEVICES (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
