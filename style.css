@@ -164,16 +164,15 @@ span.fa-heart {
 	padding: 0 10px;
 }
 
-.home-section-4 .landing-pages {
-
-}
-
 .home-section-4 .landing-inner {
 	margin-left: 53px;
 }
 
-.home-section-4 .social-strategy {
-    margin-top: 77px
+.home-section-4 .digital-promo,
+.home-section-4 .social-strategy,
+.home-section-4 .landing-pages,
+.home-section-4 .seo {
+    margin: 10px 0;
 }
 
 .home-section-4 .social-strategy h3,
@@ -186,7 +185,6 @@ span.fa-heart {
 }
 
 .bee-pic {
-	width: 45%;
 	margin: 17px 0 0 0;
 }
 
@@ -338,9 +336,9 @@ span.fa-heart {
 	}
 
 	.seo {
-		left: 200px;
+		left: 250px;
 		margin: 0 auto;
-		top: 1200px;
+		top: 1220px;
 	}
 
 }
@@ -349,5 +347,38 @@ span.fa-heart {
 
 /* LARGE DEVICES (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+	.dotted-img {
+		left: 227px;
+	}
 
+	.digital-promo {
+		left: 500px;
+	}
+
+	.home-section-4 .social-strategy {
+		left: 295px;
+	}
+
+	.bee-pic {
+		left: 695px;
+		width: 60%;
+	}
+
+	.landing-pages {
+		left: 100px;
+	}
+
+	.frog {
+		width: 40%;
+		top: 625px;
+		left: 115px;
+	}
+
+	.keyboard {
+		left: 75px;
+	}
+
+	.seo {
+		left: 370px;
+	}
 }
