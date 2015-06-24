@@ -14,7 +14,7 @@
 							020 7193 7997
 						</p>
 				</div>
-				<div class='col-xs-12 col-sm-3'>
+				<div class='whatwedo col-xs-12 col-sm-3'>
 					<h3>What We Do</h3>
 					<ul>
 						<li>UI / UX Design</li>
