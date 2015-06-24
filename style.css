@@ -231,11 +231,6 @@ span.fa-heart {
 
 /* FOOTER */
 
-.footer .footer-section-1{
-	padding: 40px 0;
-	background-color: #dadada;
-	min-height:300px;
-}
 
 .footer h3 {
 	margin-bottom: 40px;
@@ -245,6 +240,31 @@ span.fa-heart {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+}
+
+.footer .footer-section-1{
+	padding: 40px 0;
+	background-color: #dadada;
+	min-height:300px;
+	position: relative;
+}
+
+.footer .footer-section-1 .container {
+	position: relative;
+}
+
+.findus,
+.whatwedo,
+.twitterfeed,
+.connect {
+	position: absolute !important;
+}
+
+.footer-border {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: auto;
 }
 
 .footer .whatwedo ul li {
@@ -384,5 +404,29 @@ span.fa-heart {
 
 	.seo {
 		left: 370px;
+	}
+
+	.footer .footer-section-1 {
+		min-height: 800px;
+	}
+
+	.findus {
+		left: -280px;
+		top: 320px;
+	}
+
+	.whatwedo {
+		top: 310px;
+		left: 120px;
+	}
+
+	.twitterfeed {
+		top: 320px;
+		left: 680px;
+	}
+
+	.connect {
+		top: 280px;
+		left: 1200px;
 	}
 }

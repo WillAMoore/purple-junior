@@ -4,7 +4,7 @@
 	<div class="footer-section-1">
 		<div class="container">
 			<div class="row">
-				<div class='col-xs-12 col-sm-3'>
+				<div class='findus col-xs-12 col-sm-3'>
 					<h3>Find Us</h3>
 						<p>
 							Purple JR <br>
@@ -24,7 +24,7 @@
 						<li>Web Marketing</li>
 					</ul>
 				</div>
-				<div class='col-xs-12 col-sm-3'>
+				<div class='twitterfeed col-xs-12 col-sm-3'>
 					<h3>Twitter Feeds</h3>
 					<p>
 						Do not give up on adding YOUR very own personal style
@@ -32,7 +32,7 @@
 						http://t.co/N3vA9YgRce, 24 hours ago
 					</p>
 				</div>
-				<div class='col-xs-12 col-sm-3'>
+				<div class='connect col-xs-12 col-sm-3'>
 					<h3>Connect with Us</h3>
 					<ul class='social-menu text-center'>
 						<li>
@@ -59,6 +59,7 @@
 				</div>
 			</div>
 		</div>
+		<img src="<?php echo get_template_directory_uri(); ?>/img/footer-border.png" class='footer-border' alt="Footer Border Image" />
 	</div>
 
 	<div class="footer-section-2">
