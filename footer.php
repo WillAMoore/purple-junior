@@ -5,15 +5,27 @@
 		<div class="container">
 			<div class="row">
 				<div class='col-xs-12 col-sm-3'>
-					<h3 class="blue-underline">About Us</h3>
-					<p>
-						From design to development Purple Junior is writing
-						something SEO correct and have only three lines max
-						or up to the point that everything looks in harmony.
-					</p>
+					<h3>Find Us</h3>
+						<p>
+							Purple JR <br>
+							Unit 21 &amp; 22 Big Yellow<br>
+							8/9 Rodney Road, Portsmouth<br>
+							PO4 8BF Hampshire<br>
+							020 7193 7997
+						</p>
 				</div>
 				<div class='col-xs-12 col-sm-3'>
-					<h3 class="blue-underline">News Feeds</h3>
+					<h3>What We Do</h3>
+					<ul>
+						<li>UI / UX Design</li>
+						<li>Web Development</li>
+						<li>App Development</li>
+						<li>Printing Design</li>
+						<li>Web Marketing</li>
+					</ul>
+				</div>
+				<div class='col-xs-12 col-sm-3'>
+					<h3>Twitter Feeds</h3>
 					<p>
 						Do not give up on adding YOUR very own personal style
 						to your #weddingdaylook http://t.co/2HJvay2rbW
@@ -21,27 +33,29 @@
 					</p>
 				</div>
 				<div class='col-xs-12 col-sm-3'>
-					<h3 class="grey-underline">Our Services</h3>
-					<p>
-						Our UI/UX web &amp; app design, branding, printing,
-						custom relational management system, location based
-						applications, applications for events.
-					</p>
-				</div>
-				<div class='col-xs-12 col-sm-3'>
-					<h3 class="grey-underline">Purple Junior</h3>
-					<p>
-						<p>
-							Unit 21 &amp; 22 Big Yellow<br>
-							8/9 Rodney Road<br>
-							Southsea <br>
-							PO4 8BF
-						</p>
-
-						<p>020 7193 7997</p>
-
-						<p><a href="mailto:sayhello@purplejunior.com">sayhello@purplejunior.com</a></p>
-					</p>
+					<h3>Connect with Us</h3>
+					<ul class='social-menu text-center'>
+						<li>
+							<a class="circle social-button facebook-color" href="http://www.google.com">
+								<span class="fa fa-facebook"></span>
+							</a>
+						</li>
+						<li>
+							<a class="circle social-button twitter-color" href="http://www.google.com">
+								<span class="fa fa-twitter"></span>
+							</a>
+						</li>
+						<li>
+							<a class="circle social-button googleplus-color" href="http://www.google.com">
+								<span class="fa fa-google-plus"></span>
+							</a>
+						</li>
+						<li>
+							<a class="circle social-button linkedin-color" href="http://www.google.com">
+								<span class="fa fa-linkedin"></span>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
