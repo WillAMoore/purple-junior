@@ -1,90 +1,91 @@
 <!-- footer.php -->
 
 <div class="footer">
-	<div class="footer-section-1 col-xs-12 text-center">
-		<div class="col-sm-3 col-xs-12 text-left">
-			<h3 class="blue-underline">About Us</h3>
-			<p>
-				From design to development Purple Junior is writing
-				something SEO correct and have only three lines max
-				or up to the point that everything looks in harmony.
-			</p>
-		</div>
-		<div class="col-sm-3 col-xs-12 text-left">
-			<h3 class="blue-underline">News Feeds</h3>
-			<p>
-				Do not give up on adding YOUR very own personal style
-				to your #weddingdaylook http://t.co/2HJvay2rbW
-				http://t.co/N3vA9YgRce, 24 hours ago
-			</p>
-		</div>
-		<div class="col-sm-3 col-xs-12 text-left">
-			<h3 class="grey-underline">Our Services</h3>
-			<p>
-				Our UI/UX web &amp; app design, branding, printing,
-				custom relational management system, location based
-				applications, applications for events.
-			</p>
-		</div>
-		<div class="col-sm-3 col-xs-12 text-left">
-			<h3 class="grey-underline">Purple Junior</h3>
-			<p>
-				<p>
-					Unit 21 &amp; 22 Big Yellow<br>
-					8/9 Rodney Road<br>
-					Southsea <br>
-					PO4 8BF
-				</p>
-
-				<p>020 7193 7997</p>
-
-				<p><a href="mailto:sayhello@purplejunior.com">sayhello@purplejunior.com</a></p>
-			</p>
-		</div>
-
-	</div>
-
-	<div class="footer-section-2 col-xs-12">
-		<i class="fa fa-heart col-xs-6 col-xs-offset-3 text-center"></i>
-		<div class="col-sm-4 col-xs-12 text-left">
-			<p>Purple Junior all rights reserved 2015</p>
-		</div>
-		<div class="col-sm-4 col-xs-12 text-center">
-			<p><a href="mailto:sayhello@purplejunior.com">sayhello@purplejunior.com</a></p>
-		</div>
-		<div class="col-sm-4 col-xs-12 text-right">
-			<div class="pull-right">
-				<a href="http://www.google.com">
-					<p class="circle social-button facebook-color col-xs-3">
-						<i class="fa fa-facebook"></i>
+	<div class="footer-section-1">
+		<div class="container">
+			<div class="row">
+				<div class='col-xs-12 col-sm-3'>
+					<h3 class="blue-underline">About Us</h3>
+					<p>
+						From design to development Purple Junior is writing
+						something SEO correct and have only three lines max
+						or up to the point that everything looks in harmony.
 					</p>
-				</a>
-				<a href="http://www.google.com">
-					<p class="circle social-button twitter-color col-xs-3">
-						<i class="fa fa-twitter"></i>
+				</div>
+				<div class='col-xs-12 col-sm-3'>
+					<h3 class="blue-underline">News Feeds</h3>
+					<p>
+						Do not give up on adding YOUR very own personal style
+						to your #weddingdaylook http://t.co/2HJvay2rbW
+						http://t.co/N3vA9YgRce, 24 hours ago
 					</p>
-				</a>
-				<a href="http://www.google.com">
-					<p class="circle social-button googleplus-color col-xs-3">
-						<i class="fa fa-google-plus"></i>
+				</div>
+				<div class='col-xs-12 col-sm-3'>
+					<h3 class="grey-underline">Our Services</h3>
+					<p>
+						Our UI/UX web &amp; app design, branding, printing,
+						custom relational management system, location based
+						applications, applications for events.
 					</p>
-				</a>
-				<a href="http://www.google.com">
-					<p class="circle social-button linkedin-color col-xs-3">
-						<i class="fa fa-linkedin"></i>
+				</div>
+				<div class='col-xs-12 col-sm-3'>
+					<h3 class="grey-underline">Purple Junior</h3>
+					<p>
+						<p>
+							Unit 21 &amp; 22 Big Yellow<br>
+							8/9 Rodney Road<br>
+							Southsea <br>
+							PO4 8BF
+						</p>
+
+						<p>020 7193 7997</p>
+
+						<p><a href="mailto:sayhello@purplejunior.com">sayhello@purplejunior.com</a></p>
 					</p>
-				</a>
+				</div>
 			</div>
 		</div>
 	</div>
 
-
+	<div class="footer-section-2">
+		<div class="container">
+			<div class="row">
+				<i class="fa fa-heart"></i>
+				<div>
+					<p>Purple Junior all rights reserved 2015</p>
+				</div>
+				<div>
+					<p><a href="mailto:sayhello@purplejunior.com">sayhello@purplejunior.com</a></p>
+				</div>
+				<div class='col-xs-12'>
+					<ul class='social-menu text-right'>
+						<li>
+							<a class="circle social-button facebook-color" href="http://www.google.com">
+								<span class="fa fa-facebook"></span>
+							</a>
+						</li>
+						<li>
+							<a class="circle social-button twitter-color" href="http://www.google.com">
+								<span class="fa fa-twitter"></span>
+							</a>
+						</li>
+						<li>
+							<a class="circle social-button googleplus-color" href="http://www.google.com">
+								<span class="fa fa-google-plus"></span>
+							</a>
+						</li>
+						<li>
+							<a class="circle social-button linkedin-color" href="http://www.google.com">
+								<span class="fa fa-linkedin"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-
-
 
 <?php wp_footer(); ?>
-</div>
 </body>
-
 </html>

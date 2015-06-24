@@ -7,13 +7,11 @@
 <head <?php language_attributes();?>>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" media="screen" title="no title" charset="utf-8">
     <?php wp_head(); ?>
 </head>
 
-<?php wp_enqueue_script('show-menu-js', get_template_directory_uri() . '/js/show-menu.js',array('jquery')); ?>
-
 <body <?php body_class(); ?>>
-    <div >
 <!--        <nav id="navbar" class="navbar navbar-default">
             <div class="col-sm-6 col-xs-12">
                 <div id="menu" class="left">
