@@ -444,12 +444,16 @@ span.fa-heart {
 	}
 
 	.findus,
-	.whatwedo,
-	.connect {
+	.whatwedo {
 		padding-top: 50px;
 	}
 
 	.twitterfeed {
 		padding-top: 30px;
+	}
+
+	.connect {
+		padding-top: 80px;
+		padding-left: 70px !important;
 	}
 }
