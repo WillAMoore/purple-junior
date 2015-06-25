@@ -261,42 +261,11 @@ span.fa-heart {
 	position: absolute !important;
 }
 
-.owl {
-	top: -140px;
-	left:0;
-	right:0;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.tableicon {
-	right: 0;
-	bottom: -220px;
-}
-
-.footer-line {
-	top: -100px;
-	left: 0;
-}
-
-.flower1,
-.flower2 {
-	bottom: -210px
-}
-
-.flower1 {
-	left: 100px;
-}
-
-.flower2 {
-	left: 450px;
-}
-
 .grass {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: auto;
+	height: 64px;
 }
 
 .footer .whatwedo ul li {
@@ -306,6 +275,7 @@ span.fa-heart {
 .footer-section-1 {
 	height: 500px;
 }
+
 
 .footer .footer-section-1 p {
 	line-height: 2em;
@@ -440,5 +410,46 @@ span.fa-heart {
 
 	.seo {
 		left: 370px;
+	}
+
+	.owl {
+		top: -140px;
+		left:0;
+		right:0;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.tableicon {
+		right: 0;
+		bottom: -185px;
+	}
+
+	.footer-line {
+		top: -100px;
+		left: 0;
+	}
+
+	.flower1,
+	.flower2 {
+		bottom: -185px
+	}
+
+	.flower1 {
+		left: 100px;
+	}
+
+	.flower2 {
+		left: 450px;
+	}
+
+	.findus,
+	.whatwedo,
+	.connect {
+		padding-top: 50px;
+	}
+
+	.twitterfeed {
+		padding-top: 30px;
 	}
 }
