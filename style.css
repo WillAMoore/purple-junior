@@ -245,7 +245,7 @@ span.fa-heart {
 .footer .footer-section-1{
 	padding: 180px 0 0 0;
 	background-color: #dadada;
-	min-height: 600px;
+	min-height: 635px;
 	position: relative;
 }
 
@@ -393,7 +393,7 @@ span.fa-heart {
 	}
 
 	.footer h3 {
-		font-size: 14px;
+		font-size: 18px;
 		margin-bottom: 20px;
 	}
 
@@ -415,7 +415,7 @@ span.fa-heart {
 	.flower1,
 	.flower2,
 	.tableicon {
-		bottom: -83px;
+		bottom: -115px;
 	}
 
 	.flower2 {
@@ -477,24 +477,9 @@ span.fa-heart {
 		padding-left: 70px !important;
 	}
 
-	/*.footer-section-1 {
-		font-size: 14px;
-	}
-
-	.footer h3 {
-		font-size: 20px;
-		margin-bottom: 30px;
-	}*/
-
 	.footer-line {
 		top: -100px;
 		left: 0;
-	}
-
-	.flower1,
-	.flower2,
-	.tableicon {
-		bottom: -83px;
 	}
 
 	.social-menu.text-center {
