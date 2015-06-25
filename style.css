@@ -245,7 +245,7 @@ span.fa-heart {
 .footer .footer-section-1{
 	padding: 180px 0 0 0;
 	background-color: #dadada;
-	min-height:720px;
+	min-height: 600px;
 	position: relative;
 }
 
@@ -272,11 +272,6 @@ span.fa-heart {
 	margin-bottom: 15px;
 }
 
-.footer-section-1 {
-	height: 500px;
-}
-
-
 .footer .footer-section-1 p {
 	line-height: 2em;
 }
@@ -301,6 +296,28 @@ span.fa-heart {
 	margin: 0 0 0 50%;
 }
 
+.owl {
+	top: -140px;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.tableicon {
+	right: 0;
+	bottom: -185px;
+}
+
+.footer-line {
+	top: -100px;
+	left: 0;
+}
+
+.flower1,
+.flower2 {
+	bottom: -185px
+}
 
 
 @media (min-width: 768px) {
@@ -371,9 +388,45 @@ span.fa-heart {
 		top: 1220px;
 	}
 
+	.footer-section-1 {
+		font-size: 12px;
+	}
+
+	.footer h3 {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+
+	.findus,
+	.whatwedo,
+	.twitterfeed,
+	.connect {
+		padding-top: 80px;
+	}
+
+	.footer-line {
+		top: -50px;
+	}
+
+	.connect {
+		padding-left: 53px !important;
+	}
+
+	.flower1,
+	.flower2,
+	.tableicon {
+		bottom: -83px;
+	}
+
+	.flower2 {
+		left: 400px;
+	}
+
+	.social-button {
+		padding: 6px;
+	}
+
 }
-
-
 
 /* LARGE DEVICES (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -412,29 +465,6 @@ span.fa-heart {
 		left: 370px;
 	}
 
-	.owl {
-		top: -140px;
-		left:0;
-		right:0;
-		margin-left:auto;
-		margin-right:auto;
-	}
-
-	.tableicon {
-		right: 0;
-		bottom: -185px;
-	}
-
-	.footer-line {
-		top: -100px;
-		left: 0;
-	}
-
-	.flower1,
-	.flower2 {
-		bottom: -185px
-	}
-
 	.flower1 {
 		left: 100px;
 	}
@@ -443,17 +473,31 @@ span.fa-heart {
 		left: 450px;
 	}
 
-	.findus,
-	.whatwedo {
-		padding-top: 50px;
-	}
-
-	.twitterfeed {
-		padding-top: 30px;
-	}
-
 	.connect {
-		padding-top: 80px;
 		padding-left: 70px !important;
+	}
+
+	/*.footer-section-1 {
+		font-size: 14px;
+	}
+
+	.footer h3 {
+		font-size: 20px;
+		margin-bottom: 30px;
+	}*/
+
+	.footer-line {
+		top: -100px;
+		left: 0;
+	}
+
+	.flower1,
+	.flower2,
+	.tableicon {
+		bottom: -83px;
+	}
+
+	.social-menu.text-center {
+		margin-left: 0;
 	}
 }

@@ -30,7 +30,7 @@
 					<p>
 						Do not give up on adding YOUR very own personal style
 						to your #weddingdaylook http://t.co/2HJvay2rbW
-						http://t.co/N3vA9YgRce, 24 hours ago
+						http://t.co/N3vA9YgRce
 					</p>
 				</div>
 				<div class='connect col-xs-12 col-sm-3'>
