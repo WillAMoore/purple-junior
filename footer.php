@@ -59,7 +59,7 @@
 					</ul>
 				</div>
 			</div>
-			<img src="<?php echo get_template_directory_uri(); ?>/img/line.png" class='footer-line img-responsive' alt="line" />
+			<img src="<?php echo get_template_directory_uri(); ?>/img/line.png" class='hidden-xs hidden-sm footer-line img-responsive' alt="line" />
 			<img src="<?php echo get_template_directory_uri(); ?>/img/flower-1.png" class='flower1' alt="flower1" />
 			<img src="<?php echo get_template_directory_uri(); ?>/img/flower-2.png" class='flower2' alt="flower2" />
 			<img src="<?php echo get_template_directory_uri(); ?>/img/table.png" class='tableicon' alt="table" />

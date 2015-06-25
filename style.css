@@ -244,9 +244,9 @@ span.fa-heart {
 
 .footer .footer-section-1{
 	padding: 180px 0 0 0;
-	background-color: #dadada;
-	min-height: 635px;
+	background-color: #F1F1F1;
 	position: relative;
+	min-height: 600px;
 }
 
 .footer .footer-section-1 .container {
@@ -325,6 +325,38 @@ span.fa-heart {
 		margin: 0 auto;
 		width: 60%;
 	}
+
+	.footer-section-1 {
+		font-size: 11px;
+	}
+
+	.footer h3 {
+		font-size: 17px;
+		margin-bottom: 20px;
+	}
+
+	.footer-section-1 .social-button {
+		font-size: 10px;
+		margin-right: 10px;
+		padding: 7px;
+	}
+
+	.findus,
+	.whatwedo,
+	.twitterfeed,
+	.connect {
+		padding-top: 35px;
+	}
+
+	.tableicon,
+	.flower1,
+	.flower2 {
+		bottom: -130px;
+	}
+
+	.flower2 {
+		left: 250px;
+	}
 }
 
 /* MEDIUM DEVICES (desktops, 992px and up) */
@@ -388,8 +420,11 @@ span.fa-heart {
 		top: 1220px;
 	}
 
-	.footer-section-1 {
+
+
+	.footer .footer-section-1 {
 		font-size: 12px;
+		min-height: 635px;
 	}
 
 	.footer h3 {
@@ -424,6 +459,7 @@ span.fa-heart {
 
 	.social-button {
 		padding: 6px;
+		margin-right: 15px;
 	}
 
 }
