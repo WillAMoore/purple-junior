@@ -243,9 +243,9 @@ span.fa-heart {
 }
 
 .footer .footer-section-1{
-	padding: 40px 0;
+	padding: 180px 0 0 0;
 	background-color: #dadada;
-	min-height:300px;
+	min-height:720px;
 	position: relative;
 }
 
@@ -253,14 +253,46 @@ span.fa-heart {
 	position: relative;
 }
 
-.findus,
-.whatwedo,
-.twitterfeed,
-.connect {
+.flower1,
+.flower2,
+.tableicon,
+.footer-line,
+.owl {
 	position: absolute !important;
 }
 
-.footer-border {
+.owl {
+	top: -140px;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.tableicon {
+	right: 0;
+	bottom: -220px;
+}
+
+.footer-line {
+	top: -100px;
+	left: 0;
+}
+
+.flower1,
+.flower2 {
+	bottom: -210px
+}
+
+.flower1 {
+	left: 100px;
+}
+
+.flower2 {
+	left: 450px;
+}
+
+.grass {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -269,6 +301,10 @@ span.fa-heart {
 
 .footer .whatwedo ul li {
 	margin-bottom: 15px;
+}
+
+.footer-section-1 {
+	height: 500px;
 }
 
 .footer .footer-section-1 p {
@@ -404,29 +440,5 @@ span.fa-heart {
 
 	.seo {
 		left: 370px;
-	}
-
-	.footer .footer-section-1 {
-		min-height: 800px;
-	}
-
-	.findus {
-		left: -280px;
-		top: 320px;
-	}
-
-	.whatwedo {
-		top: 310px;
-		left: 120px;
-	}
-
-	.twitterfeed {
-		top: 320px;
-		left: 680px;
-	}
-
-	.connect {
-		top: 280px;
-		left: 1200px;
 	}
 }

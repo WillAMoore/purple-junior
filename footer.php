@@ -3,6 +3,7 @@
 <div class="footer">
 	<div class="footer-section-1">
 		<div class="container">
+			<img src="<?php echo get_template_directory_uri();?>/img/sharp-owl.png" alt="owl" class='owl' />
 			<div class="row">
 				<div class='findus col-xs-12 col-sm-3'>
 					<h3>Find Us</h3>
@@ -58,8 +59,12 @@
 					</ul>
 				</div>
 			</div>
+			<img src="<?php echo get_template_directory_uri(); ?>/img/line.png" class='footer-line img-responsive' alt="line" />
+			<img src="<?php echo get_template_directory_uri(); ?>/img/flower-1.png" class='flower1' alt="flower1" />
+			<img src="<?php echo get_template_directory_uri(); ?>/img/flower-2.png" class='flower2' alt="flower2" />
+			<img src="<?php echo get_template_directory_uri(); ?>/img/table.png" class='tableicon' alt="table" />
 		</div>
-		<img src="<?php echo get_template_directory_uri(); ?>/img/footer-border.png" class='footer-border' alt="Footer Border Image" />
+		<img src="<?php echo get_template_directory_uri(); ?>/img/grass.png" class='grass' alt="grass" />
 	</div>
 
 	<div class="footer-section-2">
