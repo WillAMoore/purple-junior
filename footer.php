@@ -5,7 +5,7 @@
 		<div class="container">
 			<img src="<?php echo get_template_directory_uri();?>/img/sharp-owl.png" alt="owl" class='owl' />
 			<div class="row">
-				<div class='findus col-xs-offset-1 col-xs-5 col-sm-3'>
+				<div class='findus col-xs-12 col-sm-3'>
 					<h3>Find Us</h3>
 						<p>
 							Purple JR <br>
@@ -15,7 +15,7 @@
 							020 7193 7997
 						</p>
 				</div>
-				<div class='whatwedo col-xs-6 col-sm-3'>
+				<div class='whatwedo col-xs-12 col-sm-3'>
 					<h3>What We Do</h3>
 					<ul>
 						<li>UI / UX Design</li>
@@ -25,7 +25,7 @@
 						<li>Web Marketing</li>
 					</ul>
 				</div>
-				<div class='twitterfeed col-xs-offset-1 col-xs-5 col-sm-3'>
+				<div class='twitterfeed col-xs-12 col-sm-3'>
 					<h3>Twitter Feeds</h3>
 					<p>
 						Do not give up on adding YOUR very own personal style
@@ -33,7 +33,7 @@
 						http://t.co/N3vA9YgRce
 					</p>
 				</div>
-				<div class='connect col-xs-6 col-sm-3'>
+				<div class='connect col-xs-12 col-sm-3'>
 					<h3>Connect with Us</h3>
 					<ul class='social-menu text-center'>
 						<li>
