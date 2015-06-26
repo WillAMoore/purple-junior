@@ -90,7 +90,7 @@ span.fa-heart {
 }
 
 .home-section-1 h1{
-	padding-top: 170px;
+	padding-top: 230px;
 	font-size:30px;
 	font-weight: lighter;
 	font-variant: small-caps;
@@ -204,8 +204,9 @@ span.fa-heart {
 }
 
 .graph {
-	margin: 0 0 0 40%;
+	margin: 10px 0 0 40%;
 	position: relative;
+	width: 200px;
 }
 
 
@@ -343,7 +344,9 @@ span.fa-heart {
 	text-align: center;
 }
 
-
+.calix {
+	padding: 55px 0 0 0;
+}
 @media (min-width: 768px) {
 	.home-section-5 img {
 		margin: 0 auto;
