@@ -124,11 +124,12 @@
 	<div class="home-section home-section-5 text-center">
 		<div class="container">
 			<div class="row">
+				<h3>Our Clients</h3>
 				<div class='col-sm-4'>
 					<img class='img-responsive' src="<?php echo get_template_directory_uri();?>/img/cisco-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/cisco-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/cisco-1.png'">
 				</div>
 				<div class='col-sm-4'>
-					<img class='img-responsive' src="<?php echo get_template_directory_uri();?>/img/calix-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/calix-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/calix-1.png'">
+					<img class='calix img-responsive' src="<?php echo get_template_directory_uri();?>/img/calix-1.png" onmouseover="this.src='<?php echo get_template_directory_uri();?>/img/calix-2.png'" onmouseout="this.src='<?php echo get_template_directory_uri();?>/img/calix-1.png'">
 				</div>
 				<div class='col-sm-4'>
 					<img class='img-responsive' src="<?php echo get_template_directory_uri();?>/img/swarovski.png">
